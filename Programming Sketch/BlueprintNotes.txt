@@ -1,3 +1,10 @@
+Basic tutorials:
+  - Creating a class blueprint:
+  https://youtu.be/1G403oGwKj8
+
+  - Adding components to Class Blueprint
+  https://youtu.be/QByyq9UrBzU
+
 Level Blueprint (some things below may not belong here)
   - Player Controller
   		Flying by WASD
@@ -15,16 +22,21 @@ Package Class Blueprint
  Vars:	
   String type
   	Name of the package, corresponding to the model
-  Model + Animations
+  3D package //When in game world, 3D wrapped box
+  2D Image  //When in inventory, 2D image of primative technology
   int Cost
   	Money earned by package
 
   int getCost(){return Cost}
 
+  image getFlatImage(){return 2D Image}
+
 ==============================
 
 Player Class Blueprint
   Vars:
+  	int inventory Size
+  		Max number of packages that can be held
   	inventory[] = new List(Package)
 		List of packages the player currently holds
   	int profit = 0
@@ -32,19 +44,23 @@ Player Class Blueprint
   	int altitude
   		Distance from ground at any given point
 
-  // When player taps the number corresponding to a filled inventory slot, drop the corresponding package
+  
+  // When player taps the number corresponding to a filled inventory slot, spawn the corresponding package
   deliverPackage(){
   	Triggered by key press 'input'
   	- If Inventory[input] has an item
-  		- Drop item
+  		Spawn Physics Actor [Spawn package]: https://youtu.be/8ew12FLgaMs
+  		remove package from inventory[]
   }
 
   //When a player flys into a package, add the package to their inventory
   pickupPackage(){
-  	Triggered by collision with package
+  	Triggered by collision with package : http://www.youtube.com/watch?v=q_9QKzLK-sU
   	
   	If space in inventory
-		Add package to inventory
+		Add package.2DImage to inventory UI
+		add package to inventory list
+	//What happens if no space?
   }
 
   //Gain money for succesfully delivered packages
@@ -103,6 +119,20 @@ Receivers Class Blueprint
 	int getReward(){ return reward }
 
 ====================================
+UI Blueprint
+	- Inventory
+		Space for 5 items
+		Each box is 150x150
+		Displays corresponding 2D image for packages
+	- Map
+	- General Stats
+		Altitude
+		Profit
+		Current Level
+====================================
 Unclear Aspects:
 	- Calculating bullseyes (circles around receivers corresponding to bonuses earned)
 	- Minimap with live world data
+
+Misc Features: [Reach Goals]
+	- Have the sun set overtime: https://www.youtube.com/watch?v=11pNZ5mge7o
