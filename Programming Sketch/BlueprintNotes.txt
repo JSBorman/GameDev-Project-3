@@ -1,29 +1,38 @@
-General Systems:
-  - Player Movement
-  - Package Spawn
-  - Receivers Spawn
-  - List of all available packages?
+Level Blueprint (some things below may not belong here)
+  - Player Controller
+  		Flying by WASD
+  		Always falling some?
+  - Package Random Spawn & Receivers Random Spawn (Same Idea)
+  		Given known list of valid spawn points
+  		Randomly assign packages type
+  		Note: May not have any package assigned
+  - Spawn offices at N, S, E, W & assign end of day rewards
+  - List of all possible packages
 
 =============================
 
-Package 'Class':
-  - Type: String
-  		Name of the package, corresponding to the model
-  - Model + Animations
-  - Cost: Int
-  		Money earned by package
+Package Class Blueprint
+ Vars:	
+  String type
+  	Name of the package, corresponding to the model
+  Model + Animations
+  int Cost
+  	Money earned by package
+
+  int getCost(){return Cost}
 
 ==============================
 
-Player Object:
+Player Class Blueprint
   Vars:
   	inventory[] = new List(Package)
 		List of packages the player currently holds
   	int profit = 0
   		Amount of money the player has earned this level
+  	int altitude
+  		Distance from ground at any given point
 
-  Fncs:
-  //When the player taps the number corresponding to a filled inventory slot, drop the corresponding package
+  // When player taps the number corresponding to a filled inventory slot, drop the corresponding package
   deliverPackage(){
   	Triggered by key press 'input'
   	- If Inventory[input] has an item
@@ -43,10 +52,16 @@ Player Object:
   	profit += payment
   }
 
+  //Triggered by touching ground (altitude = 0)
+  onGround(){
+  	if at postOffice
+  		gainPayment(office.getReward())
+  }
+
 ================================
 
 /*Objects that receive packages*/
-Receivers 'Class':
+Receivers Class Blueprint
 	Vars:
 	- packWanted: String
 	  	Contains string containing Package.Type
@@ -60,8 +75,6 @@ Receivers 'Class':
 			circle 2: r = 10	C0st * 5
 			circle 3: r = 20	Cost * 1
 			circle 4: r = 50	Late Fees: Cost * .5
-
-	Fncs:
 	
 	//Triggered by package landing nearby
 	Receive Packages(){
@@ -75,3 +88,21 @@ Receivers 'Class':
 		- Figure out which circle the package landed in
 		- Return the bonus corresponding to the circle
 	}
+
+	void drawBullseye(){
+		- Place bullseye image(?) around spawn model
+	}
+
+====================================
+
+/*End of Level Points*/
+(post)Office Class Blueprint
+	Var: 
+	int Reward	//Reward gained for landing at post office at the end of the day
+
+	int getReward(){ return reward }
+
+====================================
+Unclear Aspects:
+	- Calculating bullseyes (circles around receivers corresponding to bonuses earned)
+	- Minimap with live world data
