@@ -1,0 +1,77 @@
+General Systems:
+  - Player Movement
+  - Package Spawn
+  - Receivers Spawn
+  - List of all available packages?
+
+=============================
+
+Package 'Class':
+  - Type: String
+  		Name of the package, corresponding to the model
+  - Model + Animations
+  - Cost: Int
+  		Money earned by package
+
+==============================
+
+Player Object:
+  Vars:
+  	inventory[] = new List(Package)
+		List of packages the player currently holds
+  	int profit = 0
+  		Amount of money the player has earned this level
+
+  Fncs:
+  //When the player taps the number corresponding to a filled inventory slot, drop the corresponding package
+  deliverPackage(){
+  	Triggered by key press 'input'
+  	- If Inventory[input] has an item
+  		- Drop item
+  }
+
+  //When a player flys into a package, add the package to their inventory
+  pickupPackage(){
+  	Triggered by collision with package
+  	
+  	If space in inventory
+		Add package to inventory
+  }
+
+  //Gain money for succesfully delivered packages
+  gainPayment(int payment){
+  	profit += payment
+  }
+
+================================
+
+/*Objects that receive packages*/
+Receivers 'Class':
+	Vars:
+	- packWanted: String
+	  	Contains string containing Package.Type
+	- Bullseye
+		Stored as a map or list of pairs:	[(radius, bonus)]
+
+		The circles of increasing diameter around the receiver
+		Awards points based on smallest diameter landed in
+		I.e:
+			circle 1: r = 5		Cost * 20
+			circle 2: r = 10	C0st * 5
+			circle 3: r = 20	Cost * 1
+			circle 4: r = 50	Late Fees: Cost * .5
+
+	Fncs:
+	
+	//Triggered by package landing nearby
+	Receive Packages(){
+		If Package.type == packWanted
+		- calculateBonus()
+		- Player.gainPayment(calculateBonus() * package.cost)
+	}
+
+	// Calculates what to multiply the package.cost by
+	int calculateBonus(){
+		- Figure out which circle the package landed in
+		- Return the bonus corresponding to the circle
+	}
