@@ -6,15 +6,14 @@ Basic tutorials:
   https://youtu.be/QByyq9UrBzU
 
 Level Blueprint (some things below may not belong here)
-  - Player Controller
-  		Flying by WASD
-  		Always falling some?
   - Package Random Spawn & Receivers Random Spawn (Same Idea)
   		Given known list of valid spawn points
   		Randomly assign packages type
   		Note: May not have any package assigned
   - Spawn offices at N, S, E, W & assign end of day rewards
   - List of all possible packages
+  - Profit needed to succeed
+  - Packages in level / Left to deliver
 
 =============================
 
@@ -44,18 +43,20 @@ Player Class Blueprint
   	int altitude
   		Distance from ground at any given point
 
+  - Player Controller
+  		Flying by WASD
+  		Always falling some?
   
-  // When player taps the number corresponding to a filled inventory slot, spawn the corresponding package
+  Event: Player taps 1-5 on keyboard or clicks with inventory highlighted
   deliverPackage(){
-  	Triggered by key press 'input'
   	- If Inventory[input] has an item
   		Spawn Physics Actor [Spawn package]: https://youtu.be/8ew12FLgaMs
   		remove package from inventory[]
   }
 
-  //When a player flys into a package, add the package to their inventory
+  Event: Player collision with package
   pickupPackage(){
-  	Triggered by collision with package : http://www.youtube.com/watch?v=q_9QKzLK-sU
+  	Collision tutorial: http://www.youtube.com/watch?v=q_9QKzLK-sU
   	
   	If space in inventory
 		Add package.2DImage to inventory UI
@@ -68,7 +69,7 @@ Player Class Blueprint
   	profit += payment
   }
 
-  //Triggered by touching ground (altitude = 0)
+  Event: PlayerAltitude = 0
   onGround(){
   	if at postOffice
   		gainPayment(office.getReward())
@@ -92,7 +93,7 @@ Receivers Class Blueprint
 			circle 3: r = 20	Cost * 1
 			circle 4: r = 50	Late Fees: Cost * .5
 	
-	//Triggered by package landing nearby
+	Event: Package lands 'nearby'
 	Receive Packages(){
 		If Package.type == packWanted
 		- calculateBonus()
@@ -134,5 +135,6 @@ Unclear Aspects:
 	- Calculating bullseyes (circles around receivers corresponding to bonuses earned)
 	- Minimap with live world data
 
-Misc Features: [Reach Goals]
+Misc Features: [Some Reach Goals]
 	- Have the sun set overtime: https://www.youtube.com/watch?v=11pNZ5mge7o
+	- Looped BGM
