@@ -1,0 +1,806 @@
+﻿Log file open, 11/07/16 16:44:40
+LogInit:Display: Running engine for game: classsample
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(130479319) SRandInit(130479319).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.090419
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files/Epic Games/4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files/Epic Games/4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files/Epic Games/4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.13-CL-3172292
+LogInit: Engine Version: 4.13.2-3172292+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3172292
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Oct 24 2016 14:29:06
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.11.07-21.44.40:648][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.07-21.44.40:648][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.07-21.44.40:659][  0]LogInit: Computer: SA2411-PC11
+[2016.11.07-21.44.40:659][  0]LogInit: User: carvai
+[2016.11.07-21.44.40:659][  0]LogInit: CPU Page size=65536, Cores=6
+[2016.11.07-21.44.40:659][  0]LogInit: High frequency timer resolution =3.410077 MHz
+[2016.11.07-21.44.40:659][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2016.11.07-21.44.40:659][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.07-21.44.40:659][  0]LogMemory: Process Physical Memory: 256.32 MB used, 256.32 MB peak
+[2016.11.07-21.44.40:659][  0]LogMemory: Process Virtual Memory: 260.42 MB used, 260.42 MB peak
+[2016.11.07-21.44.40:659][  0]LogMemory: Physical Memory: 5294.68 MB used, 32690.30 MB total
+[2016.11.07-21.44.40:659][  0]LogMemory: Virtual Memory: 626.47 MB used, 134217728.00 MB total
+[2016.11.07-21.44.40:688][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.11.07-21.44.41:238][  0]LogD3D11RHI: D3D11 adapters:
+[2016.11.07-21.44.41:274][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2016.11.07-21.44.41:274][  0]LogD3D11RHI:       8144/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2016.11.07-21.44.41:277][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.11.07-21.44.41:277][  0]LogD3D11RHI:       0/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.11.07-21.44.41:277][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.11.07-21.44.41:282][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.11.07-21.44.41:282][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2016.11.07-21.44.41:282][  0]LogWindows: EnumDisplayDevices:
+[2016.11.07-21.44.41:282][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2016.11.07-21.44.41:283][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2016.11.07-21.44.41:283][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2016.11.07-21.44.41:283][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2016.11.07-21.44.41:283][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.11.07-21.44.41:283][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2016.11.07-21.44.41:283][  0]LogD3D11RHI:   Driver Version: 372.54 (internal:21.21.13.7254, unified:372.54)
+[2016.11.07-21.44.41:283][  0]LogD3D11RHI:      Driver Date: 8-11-2016
+[2016.11.07-21.44.41:283][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.11.07-21.44.41:297][  0]LogD3D11RHI: Async texture creation enabled
+[2016.11.07-21.44.41:308][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.11.07-21.44.41:308][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (../../../../../../Users/carvai/Desktop/Stuff/classes/Intermediate/Shaders/WorkingDirectory/3296/).
+[2016.11.07-21.44.41:309][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/carvai/AppData/Local/Temp/UnrealShaderWorkingDir/C45C962C49A150C92267FCB4A8333741/'.
+[2016.11.07-21.44.41:309][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.07-21.44.42:283][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.11.07-21.44.42:294][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.07-21.44.42:303][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.07-21.44.42:309][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.07-21.44.42:316][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.07-21.44.42:322][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.11.07-21.44.42:328][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.11.07-21.44.42:333][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.11.07-21.44.42:339][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.11.07-21.44.42:345][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.11.07-21.44.42:350][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.11.07-21.44.42:362][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.11.07-21.44.42:362][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.11.07-21.44.42:363][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.11.07-21.44.42:394][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.11.07-21.44.42:403][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.11.07-21.44.42:413][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.11.07-21.44.42:420][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.11.07-21.44.42:426][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.11.07-21.44.42:432][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.11.07-21.44.42:432][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.07-21.44.42:488][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.07-21.44.42:556][  0]LogDerivedDataCache: Loaded boot cache 0.07s 62MB C:/Users/carvai/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.11.07-21.44.42:556][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/carvai/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2016.11.07-21.44.42:556][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/carvai/Desktop/Stuff/classes/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.07-21.44.42:556][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.07-21.44.42:556][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/carvai/Desktop/Stuff/classes/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.07-21.44.42:556][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.07-21.44.42:572][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.07-21.44.42:584][  0]LogDerivedDataCache: Using Local data cache path C:/Users/carvai/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.07-21.44.42:761][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.07-21.44.42:764][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.11.07-21.44.42:846][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.11.07-21.44.42:846][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.07-21.44.42:846][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.11.07-21.44.42:920][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.11.07-21.44.43:273][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: classsample, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 2038946588
+[2016.11.07-21.44.43:310][  0]LogAssetRegistry: FAssetRegistry took 0.0223 seconds to start up
+[2016.11.07-21.44.43:347][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.034882 seconds
+[2016.11.07-21.44.43:352][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2016.11.07-21.44.43:352][  0]LogUObjectAllocator: 6125456 out of 0 bytes used by permanent object pool.
+[2016.11.07-21.44.43:352][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.11.07-21.44.43:357][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.11.07-21.44.43:557][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.07-21.44.43:557][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.07-21.44.44:203][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.11.07-21.44.44:221][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.07-21.44.44:479][  0]SourceControl: Info Source control is disabled
+[2016.11.07-21.44.44:544][  0]SourceControl: Info Source control is disabled
+[2016.11.07-21.44.44:550][  0]SourceControl: Info Source control is disabled
+[2016.11.07-21.44.44:556][  0]SourceControl: Info Source control is disabled
+[2016.11.07-21.44.44:795][  0]LogEngine: Initializing Engine...
+[2016.11.07-21.44.44:796][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.11.07-21.44.44:942][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.11.07-21.44.44:949][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.07-21.44.45:080][  0]LogInit: FAudioDevice initialized.
+[2016.11.07-21.44.45:134][  0]LogDerivedDataCache: Saved boot cache 0.05s 62MB C:/Users/carvai/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.11.07-21.44.45:151][  0]LogInit: Texture streaming: Enabled
+[2016.11.07-21.44.45:182][  0]LogInit: Transaction tracking system initialized
+[2016.11.07-21.44.45:215][  0]BlueprintLog: New page: Editor Load
+[2016.11.07-21.44.45:275][  0]LocalizationService: Info Localization service is disabled
+[2016.11.07-21.44.45:333][  0]LogConsoleResponse:Display: 
+[2016.11.07-21.44.45:471][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.11.07-21.44.45:471][  0]LogCook:Display: Mobile HDR setting 1
+[2016.11.07-21.44.45:584][  0]LogFileCache: Scanning file cache for directory 'C:/Users/carvai/Desktop/Stuff/classes/Content/' took 0.02s
+[2016.11.07-21.44.45:584][  0]SourceControl: Info Source control is disabled
+[2016.11.07-21.44.45:584][  0]Cmd: MAP LOAD FILE="../../../../../../Users/carvai/Desktop/Stuff/classes/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.07-21.44.45:584][  0]LightingResults: New page: Lighting Build
+[2016.11.07-21.44.45:586][  0]MapCheck: New page: Map Check
+[2016.11.07-21.44.45:586][  0]LightingResults: New page: Lighting Build
+[2016.11.07-21.44.46:822][  0]LogAIModule: Creating AISystem for world Level1
+[2016.11.07-21.44.46:842][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.07-21.44.46:843][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.07-21.44.46:926][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 82.478ms to complete.
+[2016.11.07-21.44.46:926][  0]LogFileHelpers: Loading map 'Level1' took 1.342
+[2016.11.07-21.44.47:086][  0]LogCollectionManager: Loaded 0 collections in 0.001278 seconds
+[2016.11.07-21.44.47:129][  0]LogFileCache: Scanning file cache for directory 'C:/Users/carvai/Desktop/Stuff/classes/Saved/Collections/' took 0.01s
+[2016.11.07-21.44.47:129][  0]LogFileCache: Scanning file cache for directory 'C:/Users/carvai/Desktop/Stuff/classes/Content/Developers/carvai/Collections/' took 0.01s
+[2016.11.07-21.44.47:129][  0]LogFileCache: Scanning file cache for directory 'C:/Users/carvai/Desktop/Stuff/classes/Content/Collections/' took 0.01s
+[2016.11.07-21.44.47:129][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.11.07-21.44.47:137][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2141 classes and 415 folders.
+[2016.11.07-21.44.47:140][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.11.07-21.44.47:140][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.11.07-21.44.47:141][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 12 classes and 0 folders.
+[2016.11.07-21.44.47:144][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.11.07-21.44.47:183][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.11.07-21.44.47:188][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.11.07-21.44.47:200][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.07-21.44.47:205][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.07-21.44.47:243][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2016.11.07-21.44.47:243][  0]LogLoad: (Engine Initialization) Total time: 7.49 seconds
+[2016.11.07-21.44.47:243][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.16 seconds
+[2016.11.07-21.44.47:243][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.11.07-21.44.47:243][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.11.07-21.44.47:253][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.07-21.44.47:253][  0]LogOcInput: OculusInput pre-init called
+[2016.11.07-21.44.47:292][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.11.07-21.44.47:472][  0]LogRenderer: Reallocating scene render targets to support 1208x652 (Frame:2).
+[2016.11.07-21.44.47:541][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/carvai/Desktop/Stuff/classes/Content/' took 0.27s
+[2016.11.07-21.44.47:575][  2]LogAssetRegistry: Asset discovery search completed in 4.2883 seconds
+[2016.11.07-21.44.47:575][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.11.07-21.44.47:576][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2016.11.07-21.45.04:677][938]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.11.07-21.45.54:811][ 80]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.11.07-21.46.04:995][221]LogMaterial: Missing cached shader map for material volcano_flame_tile_Mat, compiling. 
+[2016.11.07-21.46.10:634][857]LogTexture:Display: Building textures: volcano_sparse_fire (AutoDXT)
+[2016.11.07-21.46.16:843][534]LogMaterial: Missing cached shader map for material volcano_sparse_fire_Mat, compiling. 
+[2016.11.07-21.46.29:669][980]Cmd: TRANSACTION UNDO
+[2016.11.07-21.46.29:669][980]LogEditorTransaction: Undo Create Actors
+[2016.11.07-21.46.29:671][980]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_110' invalid (495 verts, 0 indices).
+[2016.11.07-21.46.29:944][  5]Cmd: TRANSACTION UNDO
+[2016.11.07-21.46.29:944][  5]LogEditorTransaction: Undo Create Actors
+[2016.11.07-21.46.30:595][ 74]Cmd: TRANSACTION UNDO
+[2016.11.07-21.46.30:595][ 74]LogEditorTransaction: Undo Create Actors
+[2016.11.07-21.47.30:484][939]Cmd: TRANSACTION UNDO
+[2016.11.07-21.47.30:484][939]LogEditorTransaction: Undo Select Brush Surface
+[2016.11.07-21.47.30:730][955]Cmd: TRANSACTION UNDO
+[2016.11.07-21.47.30:730][955]LogEditorTransaction: Undo Scale Actors
+[2016.11.07-21.47.30:949][972]Cmd: TRANSACTION UNDO
+[2016.11.07-21.47.30:949][972]LogEditorTransaction: Undo Scale Actors
+[2016.11.07-21.47.31:157][990]Cmd: TRANSACTION UNDO
+[2016.11.07-21.47.31:157][990]LogEditorTransaction: Undo Scale Actors
+[2016.11.07-21.47.31:161][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_292' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:161][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_293' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:161][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_294' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:161][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_295' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:161][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_296' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:161][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_297' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:161][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_298' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:162][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_299' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:162][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_300' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:162][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_301' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:162][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_302' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:162][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_303' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:162][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_304' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:162][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_305' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:162][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_306' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:163][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_307' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:163][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_308' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:163][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_309' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:163][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_310' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:163][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_311' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:163][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_312' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:163][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_313' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:163][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_314' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:163][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_315' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:164][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_316' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:164][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_317' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:164][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_318' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:164][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_319' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:164][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_320' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:164][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_321' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:164][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_322' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:164][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_323' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:165][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_324' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:165][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_325' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:165][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_326' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:165][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_327' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:165][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_328' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:165][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_329' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:165][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_330' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:165][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_331' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:165][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_332' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:166][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_333' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:166][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_334' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:166][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_335' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:166][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_336' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:166][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_337' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:166][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_338' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:166][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_339' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:167][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_340' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:167][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_341' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:167][990]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level1.Level1:PersistentLevel.ModelComponent_342' invalid (481 verts, 0 indices).
+[2016.11.07-21.47.31:416][ 15]Cmd: TRANSACTION UNDO
+[2016.11.07-21.47.31:416][ 15]LogEditorTransaction: Undo Create Actors
+[2016.11.07-21.47.31:758][ 50]Cmd: TRANSACTION UNDO
+[2016.11.07-21.47.31:758][ 50]LogEditorTransaction: Undo Scale Actors
+[2016.11.07-21.47.32:209][ 96]Cmd: TRANSACTION UNDO
+[2016.11.07-21.47.32:209][ 96]LogEditorTransaction: Undo Scale Actors
+[2016.11.07-21.47.32:605][135]Cmd: TRANSACTION UNDO
+[2016.11.07-21.47.32:605][135]LogEditorTransaction: Undo Scale Actors
+[2016.11.07-21.47.33:012][176]Cmd: TRANSACTION UNDO
+[2016.11.07-21.47.33:012][176]LogEditorTransaction: Undo Move Actors
+[2016.11.07-21.47.33:444][220]Cmd: TRANSACTION UNDO
+[2016.11.07-21.47.33:444][220]LogEditorTransaction: Undo Scale Actors
+[2016.11.07-21.47.33:905][269]Cmd: TRANSACTION UNDO
+[2016.11.07-21.47.33:905][269]LogEditorTransaction: Undo Scale Actors
+[2016.11.07-21.48.43:291][634]AssetReimport: New page: Outstanding source content changes 11:48:43 AM
+[2016.11.07-21.48.43:292][634]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/carvai/Desktop/Stuff/classes/Content/Assets/push_walk_anim.fbx)
+[2016.11.07-21.48.43:318][634]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.11.07-21.48.43:318][634]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.11.07-21.48.43:318][634]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.11.07-21.48.43:318][634]LogFbx: ItemName: NodeAttribute, ItemCount : 102
+[2016.11.07-21.48.43:318][634]LogFbx: ItemName: Model, ItemCount : 106
+[2016.11.07-21.48.43:318][634]LogFbx: ItemName: Geometry, ItemCount : 4
+[2016.11.07-21.48.43:318][634]LogFbx: ItemName: Material, ItemCount : 4
+[2016.11.07-21.48.43:318][634]LogFbx: ItemName: Texture, ItemCount : 3
+[2016.11.07-21.48.43:318][634]LogFbx: ItemName: AnimationCurveNode, ItemCount : 235
+[2016.11.07-21.48.43:318][634]LogFbx: ItemName: CollectionExclusive, ItemCount : 16
+[2016.11.07-21.48.43:318][634]LogFbx: ItemName: AnimationCurve, ItemCount : 383
+[2016.11.07-21.48.43:318][634]LogFbx: ItemName: Pose, ItemCount : 1
+[2016.11.07-21.48.43:318][634]LogFbx: ItemName: Deformer, ItemCount : 23
+[2016.11.07-21.48.43:318][634]LogFbx: ItemName: Constraint, ItemCount : 1
+[2016.11.07-21.48.43:318][634]LogFbx: ItemName: Character, ItemCount : 5
+[2016.11.07-21.48.43:318][634]LogFbx: ItemName: ControlSetPlug, ItemCount : 2
+[2016.11.07-21.48.43:318][634]LogFbx: ItemName: Video, ItemCount : 2
+[2016.11.07-21.48.43:328][634]LogFbx: Loading FBX Scene from C:/Users/carvai/Desktop/Stuff/classes/Content/Assets/push_walk_anim.fbx
+[2016.11.07-21.48.43:446][634]LogFbx: FBX Scene Loaded Succesfully
+[2016.11.07-21.48.54:628][634]LogFbx: Loading FBX Scene from C:/Users/carvai/Desktop/Stuff/classes/Content/Assets/push_walk_anim.fbx
+[2016.11.07-21.48.54:760][634]LogFbx: FBX Scene Loaded Succesfully
+[2016.11.07-21.48.54:766][634]LogFbx: =================================================
+[2016.11.07-21.48.54:766][634]LogFbx: Dumping Node START [guy:human_model:base_obj] 
+[2016.11.07-21.48.54:766][634]LogFbx: 	Total Deformer Count -51226240.
+[2016.11.07-21.48.54:766][634]LogFbx: 		[Node 1]  (Type Skin).
+[2016.11.07-21.48.54:766][634]LogFbx: =================================================
+[2016.11.07-21.48.54:766][634]LogFbx: 	Attribute () Type (4).
+[2016.11.07-21.48.54:766][634]LogFbx: 		[Node Attribute Child 1] guy:human_model:base_obj (Type Mesh).
+[2016.11.07-21.48.54:766][634]LogFbx: Dumping Node END [guy:human_model:base_obj]
+[2016.11.07-21.48.54:766][634]LogFbx: =================================================
+[2016.11.07-21.48.54:766][634]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:tie] 
+[2016.11.07-21.48.54:766][634]LogFbx: 	Total Deformer Count -51941600.
+[2016.11.07-21.48.54:766][634]LogFbx: 	Attribute () Type (4).
+[2016.11.07-21.48.54:766][634]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:tie (Type Mesh).
+[2016.11.07-21.48.54:766][634]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:tie]
+[2016.11.07-21.48.54:766][634]LogFbx: =================================================
+[2016.11.07-21.48.54:766][634]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:mask] 
+[2016.11.07-21.48.54:766][634]LogFbx: 	Total Deformer Count -51941600.
+[2016.11.07-21.48.54:766][634]LogFbx: 	Attribute () Type (4).
+[2016.11.07-21.48.54:766][634]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:mask (Type Mesh).
+[2016.11.07-21.48.54:766][634]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:mask]
+[2016.11.07-21.48.54:766][634]LogFbx: =================================================
+[2016.11.07-21.48.54:766][634]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:skirt] 
+[2016.11.07-21.48.54:766][634]LogFbx: 	Total Deformer Count -51941440.
+[2016.11.07-21.48.54:766][634]LogFbx: 	Attribute () Type (4).
+[2016.11.07-21.48.54:766][634]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:skirt (Type Mesh).
+[2016.11.07-21.48.54:766][634]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:skirt]
+[2016.11.07-21.48.54:767][634]LogFbx: =================================================
+[2016.11.07-21.48.54:767][634]LogFbx: Dumping Node START [guy:human_model:base_obj] 
+[2016.11.07-21.48.54:767][634]LogFbx: 	Total Deformer Count -51226800.
+[2016.11.07-21.48.54:767][634]LogFbx: 		[Node 1]  (Type Skin).
+[2016.11.07-21.48.54:767][634]LogFbx: =================================================
+[2016.11.07-21.48.54:767][634]LogFbx: 	Attribute () Type (4).
+[2016.11.07-21.48.54:767][634]LogFbx: 		[Node Attribute Child 1] guy:human_model:base_obj (Type Mesh).
+[2016.11.07-21.48.54:767][634]LogFbx: Dumping Node END [guy:human_model:base_obj]
+[2016.11.07-21.48.54:767][634]LogFbx: =================================================
+[2016.11.07-21.48.54:767][634]LogFbx: Dumping Node START [guy:human_model:base_obj] 
+[2016.11.07-21.48.54:767][634]LogFbx: 	Total Deformer Count -51226800.
+[2016.11.07-21.48.54:767][634]LogFbx: 		[Node 1]  (Type Skin).
+[2016.11.07-21.48.54:767][634]LogFbx: =================================================
+[2016.11.07-21.48.54:767][634]LogFbx: 	Attribute () Type (4).
+[2016.11.07-21.48.54:767][634]LogFbx: 		[Node Attribute Child 1] guy:human_model:base_obj (Type Mesh).
+[2016.11.07-21.48.54:767][634]LogFbx: Dumping Node END [guy:human_model:base_obj]
+[2016.11.07-21.48.54:767][634]LogFbx: =================================================
+[2016.11.07-21.48.54:767][634]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:tie] 
+[2016.11.07-21.48.54:767][634]LogFbx: 	Total Deformer Count -51942880.
+[2016.11.07-21.48.54:767][634]LogFbx: 	Attribute () Type (4).
+[2016.11.07-21.48.54:767][634]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:tie (Type Mesh).
+[2016.11.07-21.48.54:767][634]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:tie]
+[2016.11.07-21.48.54:767][634]LogFbx: =================================================
+[2016.11.07-21.48.54:767][634]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:mask] 
+[2016.11.07-21.48.54:767][634]LogFbx: 	Total Deformer Count -51942880.
+[2016.11.07-21.48.54:767][634]LogFbx: 	Attribute () Type (4).
+[2016.11.07-21.48.54:767][634]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:mask (Type Mesh).
+[2016.11.07-21.48.54:767][634]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:mask]
+[2016.11.07-21.48.54:768][634]LogFbx: =================================================
+[2016.11.07-21.48.54:768][634]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:tie] 
+[2016.11.07-21.48.54:768][634]LogFbx: 	Total Deformer Count -51942880.
+[2016.11.07-21.48.54:768][634]LogFbx: 	Attribute () Type (4).
+[2016.11.07-21.48.54:768][634]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:tie (Type Mesh).
+[2016.11.07-21.48.54:768][634]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:tie]
+[2016.11.07-21.48.54:768][634]LogFbx: =================================================
+[2016.11.07-21.48.54:768][634]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:mask] 
+[2016.11.07-21.48.54:768][634]LogFbx: 	Total Deformer Count -51942880.
+[2016.11.07-21.48.54:768][634]LogFbx: 	Attribute () Type (4).
+[2016.11.07-21.48.54:768][634]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:mask (Type Mesh).
+[2016.11.07-21.48.54:768][634]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:mask]
+[2016.11.07-21.48.54:768][634]LogFbx: =================================================
+[2016.11.07-21.48.54:768][634]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:tie] 
+[2016.11.07-21.48.54:768][634]LogFbx: 	Total Deformer Count -51942720.
+[2016.11.07-21.48.54:768][634]LogFbx: 	Attribute () Type (4).
+[2016.11.07-21.48.54:768][634]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:tie (Type Mesh).
+[2016.11.07-21.48.54:768][634]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:tie]
+[2016.11.07-21.48.54:768][634]LogFbx: =================================================
+[2016.11.07-21.48.54:768][634]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:mask] 
+[2016.11.07-21.48.54:768][634]LogFbx: 	Total Deformer Count -51942720.
+[2016.11.07-21.48.54:768][634]LogFbx: 	Attribute () Type (4).
+[2016.11.07-21.48.54:768][634]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:mask (Type Mesh).
+[2016.11.07-21.48.54:768][634]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:mask]
+[2016.11.07-21.48.54:768][634]LogFbx: =================================================
+[2016.11.07-21.48.54:768][634]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:skirt] 
+[2016.11.07-21.48.54:768][634]LogFbx: 	Total Deformer Count -51942720.
+[2016.11.07-21.48.54:768][634]LogFbx: 	Attribute () Type (4).
+[2016.11.07-21.48.54:768][634]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:skirt (Type Mesh).
+[2016.11.07-21.48.54:768][634]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:skirt]
+[2016.11.07-21.48.54:770][634]LogFbx: Valid bind pose for Pose (skinCluster1) - guy:human_model:base_obj
+[2016.11.07-21.48.54:776][634]LogMaterial: Missing cached shader map for material DefaultSkin1, compiling. 
+[2016.11.07-21.48.54:788][634]LogFbx: Triangulating skeletal mesh guy:human_model:base_obj
+[2016.11.07-21.48.58:539][634]LogSkeletalMesh: Section 0: 14518 vertices, 22 active bones
+[2016.11.07-21.49.25:237][634]LogSkeletalMesh: Section 0: Material=0, 26754 triangles
+[2016.11.07-21.49.25:272][634]LogFbx: =================================================
+[2016.11.07-21.49.25:272][634]LogFbx: Dumping Node START [guy:human_model:base_obj] 
+[2016.11.07-21.49.25:272][634]LogFbx: 	Total Deformer Count -55317760.
+[2016.11.07-21.49.25:272][634]LogFbx: 		[Node 1]  (Type Skin).
+[2016.11.07-21.49.25:272][634]LogFbx: =================================================
+[2016.11.07-21.49.25:272][634]LogFbx: 	Attribute () Type (4).
+[2016.11.07-21.49.25:272][634]LogFbx: 		[Node Attribute Child 1] guy:human_model:base_obj (Type Mesh).
+[2016.11.07-21.49.25:272][634]LogFbx: Dumping Node END [guy:human_model:base_obj]
+[2016.11.07-21.49.25:272][634]LogFbx: =================================================
+[2016.11.07-21.49.25:272][634]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:tie] 
+[2016.11.07-21.49.25:272][634]LogFbx: 	Total Deformer Count -52453024.
+[2016.11.07-21.49.25:272][634]LogFbx: 	Attribute () Type (4).
+[2016.11.07-21.49.25:272][634]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:tie (Type Mesh).
+[2016.11.07-21.49.25:272][634]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:tie]
+[2016.11.07-21.49.25:272][634]LogFbx: =================================================
+[2016.11.07-21.49.25:272][634]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:mask] 
+[2016.11.07-21.49.25:272][634]LogFbx: 	Total Deformer Count -52453024.
+[2016.11.07-21.49.25:272][634]LogFbx: 	Attribute () Type (4).
+[2016.11.07-21.49.25:272][634]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:mask (Type Mesh).
+[2016.11.07-21.49.25:272][634]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:mask]
+[2016.11.07-21.49.25:273][634]LogFbx: =================================================
+[2016.11.07-21.49.25:273][634]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:skirt] 
+[2016.11.07-21.49.25:273][634]LogFbx: 	Total Deformer Count -52452384.
+[2016.11.07-21.49.25:273][634]LogFbx: 	Attribute () Type (4).
+[2016.11.07-21.49.25:273][634]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:skirt (Type Mesh).
+[2016.11.07-21.49.25:273][634]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:skirt]
+[2016.11.07-21.49.25:273][634]LogFbx: =================================================
+[2016.11.07-21.49.25:273][634]LogFbx: Dumping Node START [guy:human_model:base_obj] 
+[2016.11.07-21.49.25:273][634]LogFbx: 	Total Deformer Count -55317760.
+[2016.11.07-21.49.25:273][634]LogFbx: 		[Node 1]  (Type Skin).
+[2016.11.07-21.49.25:273][634]LogFbx: =================================================
+[2016.11.07-21.49.25:273][634]LogFbx: 	Attribute () Type (4).
+[2016.11.07-21.49.25:273][634]LogFbx: 		[Node Attribute Child 1] guy:human_model:base_obj (Type Mesh).
+[2016.11.07-21.49.25:273][634]LogFbx: Dumping Node END [guy:human_model:base_obj]
+[2016.11.07-21.49.25:273][634]LogFbx: =================================================
+[2016.11.07-21.49.25:273][634]LogFbx: Dumping Node START [guy:human_model:base_obj] 
+[2016.11.07-21.49.25:273][634]LogFbx: 	Total Deformer Count -55317760.
+[2016.11.07-21.49.25:273][634]LogFbx: 		[Node 1]  (Type Skin).
+[2016.11.07-21.49.25:273][634]LogFbx: =================================================
+[2016.11.07-21.49.25:273][634]LogFbx: 	Attribute () Type (4).
+[2016.11.07-21.49.25:273][634]LogFbx: 		[Node Attribute Child 1] guy:human_model:base_obj (Type Mesh).
+[2016.11.07-21.49.25:273][634]LogFbx: Dumping Node END [guy:human_model:base_obj]
+[2016.11.07-21.49.25:275][634]LogFbx: =================================================
+[2016.11.07-21.49.25:275][634]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:tie] 
+[2016.11.07-21.49.25:275][634]LogFbx: 	Total Deformer Count -52454304.
+[2016.11.07-21.49.25:275][634]LogFbx: 	Attribute () Type (4).
+[2016.11.07-21.49.25:275][634]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:tie (Type Mesh).
+[2016.11.07-21.49.25:275][634]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:tie]
+[2016.11.07-21.49.25:275][634]LogFbx: =================================================
+[2016.11.07-21.49.25:275][634]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:mask] 
+[2016.11.07-21.49.25:275][634]LogFbx: 	Total Deformer Count -52454304.
+[2016.11.07-21.49.25:275][634]LogFbx: 	Attribute () Type (4).
+[2016.11.07-21.49.25:275][634]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:mask (Type Mesh).
+[2016.11.07-21.49.25:275][634]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:mask]
+[2016.11.07-21.49.25:275][634]LogFbx: =================================================
+[2016.11.07-21.49.25:275][634]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:tie] 
+[2016.11.07-21.49.25:275][634]LogFbx: 	Total Deformer Count -52454304.
+[2016.11.07-21.49.25:275][634]LogFbx: 	Attribute () Type (4).
+[2016.11.07-21.49.25:275][634]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:tie (Type Mesh).
+[2016.11.07-21.49.25:275][634]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:tie]
+[2016.11.07-21.49.25:276][634]LogFbx: =================================================
+[2016.11.07-21.49.25:276][634]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:mask] 
+[2016.11.07-21.49.25:276][634]LogFbx: 	Total Deformer Count -52454304.
+[2016.11.07-21.49.25:276][634]LogFbx: 	Attribute () Type (4).
+[2016.11.07-21.49.25:276][634]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:mask (Type Mesh).
+[2016.11.07-21.49.25:276][634]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:mask]
+[2016.11.07-21.49.25:276][634]LogFbx: =================================================
+[2016.11.07-21.49.25:276][634]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:tie] 
+[2016.11.07-21.49.25:276][634]LogFbx: 	Total Deformer Count -52454144.
+[2016.11.07-21.49.25:276][634]LogFbx: 	Attribute () Type (4).
+[2016.11.07-21.49.25:276][634]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:tie (Type Mesh).
+[2016.11.07-21.49.25:276][634]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:tie]
+[2016.11.07-21.49.25:276][634]LogFbx: =================================================
+[2016.11.07-21.49.25:276][634]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:mask] 
+[2016.11.07-21.49.25:276][634]LogFbx: 	Total Deformer Count -52454144.
+[2016.11.07-21.49.25:276][634]LogFbx: 	Attribute () Type (4).
+[2016.11.07-21.49.25:276][634]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:mask (Type Mesh).
+[2016.11.07-21.49.25:276][634]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:mask]
+[2016.11.07-21.49.25:277][634]LogFbx: =================================================
+[2016.11.07-21.49.25:277][634]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:skirt] 
+[2016.11.07-21.49.25:277][634]LogFbx: 	Total Deformer Count -52454144.
+[2016.11.07-21.49.25:277][634]LogFbx: 	Attribute () Type (4).
+[2016.11.07-21.49.25:277][634]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:skirt (Type Mesh).
+[2016.11.07-21.49.25:277][634]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:skirt]
+[2016.11.07-21.49.25:278][634]LogFbx: SortedLinks :(0) QuickRigCharacter_Reference
+[2016.11.07-21.49.25:278][634]LogFbx: SortedLinks :(1) QuickRigCharacter_Hips
+[2016.11.07-21.49.25:278][634]LogFbx: SortedLinks :(2) QuickRigCharacter_LeftUpLeg
+[2016.11.07-21.49.25:278][634]LogFbx: SortedLinks :(3) QuickRigCharacter_LeftLeg
+[2016.11.07-21.49.25:278][634]LogFbx: SortedLinks :(4) QuickRigCharacter_LeftFoot
+[2016.11.07-21.49.25:278][634]LogFbx: SortedLinks :(5) QuickRigCharacter_LeftToeBase
+[2016.11.07-21.49.25:278][634]LogFbx: SortedLinks :(6) QuickRigCharacter_RightUpLeg
+[2016.11.07-21.49.25:278][634]LogFbx: SortedLinks :(7) QuickRigCharacter_RightLeg
+[2016.11.07-21.49.25:278][634]LogFbx: SortedLinks :(8) QuickRigCharacter_RightFoot
+[2016.11.07-21.49.25:278][634]LogFbx: SortedLinks :(9) QuickRigCharacter_RightToeBase
+[2016.11.07-21.49.25:278][634]LogFbx: SortedLinks :(10) QuickRigCharacter_Spine
+[2016.11.07-21.49.25:278][634]LogFbx: SortedLinks :(11) QuickRigCharacter_Spine1
+[2016.11.07-21.49.25:278][634]LogFbx: SortedLinks :(12) QuickRigCharacter_Spine2
+[2016.11.07-21.49.25:278][634]LogFbx: SortedLinks :(13) QuickRigCharacter_LeftShoulder
+[2016.11.07-21.49.25:278][634]LogFbx: SortedLinks :(14) QuickRigCharacter_LeftArm
+[2016.11.07-21.49.25:278][634]LogFbx: SortedLinks :(15) QuickRigCharacter_LeftForeArm
+[2016.11.07-21.49.25:278][634]LogFbx: SortedLinks :(16) QuickRigCharacter_LeftHand
+[2016.11.07-21.49.25:278][634]LogFbx: SortedLinks :(17) QuickRigCharacter_RightShoulder
+[2016.11.07-21.49.25:278][634]LogFbx: SortedLinks :(18) QuickRigCharacter_RightArm
+[2016.11.07-21.49.25:278][634]LogFbx: SortedLinks :(19) QuickRigCharacter_RightForeArm
+[2016.11.07-21.49.25:278][634]LogFbx: SortedLinks :(20) QuickRigCharacter_RightHand
+[2016.11.07-21.49.25:278][634]LogFbx: SortedLinks :(21) QuickRigCharacter_Neck
+[2016.11.07-21.49.25:278][634]LogFbx: SortedLinks :(22) QuickRigCharacter_Head
+[2016.11.07-21.49.25:279][634]LogFbx: Parsing AnimStack Take 001
+[2016.11.07-21.49.25:401][634]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Assets/push_walk_anim_Anim.push_walk_anim_Anim
+[2016.11.07-21.49.25:470][635]LogMaterial:Warning: Material /Game/Assets/DefaultSkin1.DefaultSkin1 needed to have new flag set bUsedWithSkeletalMesh !
+[2016.11.07-21.49.25:472][635]LogMaterial: Missing cached shader map for material DefaultSkin1, compiling. 
+[2016.11.07-21.49.25:498][635]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.07-21.49.25:529][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/push_walk_anim" FILE="../../../../../../Users/carvai/Desktop/Stuff/classes/Content/Assets/push_walk_anim.uasset" SILENT=true
+[2016.11.07-21.49.25:575][635]LogSavePackage: Save=44.21ms
+[2016.11.07-21.49.25:575][635]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/Stuff/classes/Saved/push_walk_anim1D65CA1C4D7491751AEF34BBD3136E34.tmp' to '../../../../../../Users/carvai/Desktop/Stuff/classes/Content/Assets/push_walk_anim.uasset'
+[2016.11.07-21.49.25:578][635]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/Stuff/classes/Content/Assets/push_walk_anim.uasset
+[2016.11.07-21.49.26:941][754]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2016.11.07-21.49.26:941][754]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.07-21.49.26:941][754]PIE: New page: PIE session: Level1 (Nov 7, 2016, 11:49:26 AM)
+[2016.11.07-21.49.26:942][754]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2016.11.07-21.49.26:954][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011948s)
+[2016.11.07-21.49.26:954][754]LogAIModule: Creating AISystem for world Level1
+[2016.11.07-21.49.26:954][754]LogPlayLevel: PIE: World Init took: (0.000784s)
+[2016.11.07-21.49.26:955][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.012984s)
+[2016.11.07-21.49.26:976][754]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.07-21.49.26:989][754]LogInit: FAudioDevice initialized.
+[2016.11.07-21.49.27:044][754]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.11.07-21.49.27:048][754]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.11.07-16.49.27
+[2016.11.07-21.49.27:049][754]LogWorld: Bringing up level for play took: 0.004248
+[2016.11.07-21.49.27:052][754]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2016.11.07-21.49.27:052][754]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.07-21.49.27:053][754]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.07-21.49.27:053][754]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.07-21.49.27:054][754]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.07-21.49.27:054][754]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.313
+[2016.11.07-21.49.27:061][754]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2016.11.07-21.49.28:581][922]AssetReimport: Info Importing new asset /Game/Assets/push_walk_anim.
+[2016.11.07-21.49.35:568][624]LogBlueprintUserMessages: [Package4] Spear
+[2016.11.07-21.50.01:149][625]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2016.11.07-21.50.01:192][625]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2016.11.07-21.50.03:066][837]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.11.07-21.50.12:328][890]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.11.07-21.50.18:168][483]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.11.07-21.50.19:798][659]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2016.11.07-21.50.19:798][659]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.07-21.50.19:798][659]PIE: New page: PIE session: Level1 (Nov 7, 2016, 11:50:19 AM)
+[2016.11.07-21.50.19:798][659]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2016.11.07-21.50.19:809][659]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011028s)
+[2016.11.07-21.50.19:809][659]LogAIModule: Creating AISystem for world Level1
+[2016.11.07-21.50.19:810][659]LogPlayLevel: PIE: World Init took: (0.000596s)
+[2016.11.07-21.50.19:810][659]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.011795s)
+[2016.11.07-21.50.19:822][659]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.07-21.50.19:832][659]LogInit: FAudioDevice initialized.
+[2016.11.07-21.50.19:859][659]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.11.07-21.50.19:863][659]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.11.07-16.50.19
+[2016.11.07-21.50.19:864][659]LogWorld: Bringing up level for play took: 0.003104
+[2016.11.07-21.50.19:864][659]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.07-21.50.19:864][659]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.07-21.50.19:864][659]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.07-21.50.19:865][659]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.07-21.50.19:865][659]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.876
+[2016.11.07-21.50.19:865][659]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2016.11.07-21.50.22:093][921]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2016.11.07-21.50.22:136][921]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2016.11.07-21.50.40:871][982]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.11.07-21.51.22:929][693]LogEditorActor: Deleted Actor: SkyLight
+[2016.11.07-21.51.22:944][693]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2016.11.07-21.51.25:107][950]Cmd: TRANSACTION UNDO
+[2016.11.07-21.51.25:107][950]LogEditorTransaction: Undo Delete selection
+[2016.11.07-21.51.27:128][176]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.11.07-21.51.31:505][668]Cmd: TRANSACTION UNDO
+[2016.11.07-21.51.31:505][668]LogEditorTransaction: Undo Scale Actors
+[2016.11.07-21.51.32:017][723]Cmd: TRANSACTION UNDO
+[2016.11.07-21.51.32:017][723]LogEditorTransaction: Undo Clicking on Actors
+[2016.11.07-21.51.32:507][777]Cmd: TRANSACTION UNDO
+[2016.11.07-21.51.32:507][777]LogEditorTransaction: Undo Edit Light Color
+[2016.11.07-21.51.33:125][844]Cmd: TRANSACTION UNDO
+[2016.11.07-21.51.33:125][844]LogEditorTransaction: Undo Edit Light Color
+[2016.11.07-21.51.36:912][267]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.11.07-21.51.52:723][ 33]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2016.11.07-21.51.52:723][ 33]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.07-21.51.52:723][ 33]PIE: New page: SIE session: Level1 (Nov 7, 2016, 11:51:52 AM)
+[2016.11.07-21.51.52:723][ 33]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2016.11.07-21.51.52:737][ 33]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013651s)
+[2016.11.07-21.51.52:737][ 33]LogAIModule: Creating AISystem for world Level1
+[2016.11.07-21.51.52:738][ 33]LogPlayLevel: PIE: World Init took: (0.000740s)
+[2016.11.07-21.51.52:738][ 33]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.014589s)
+[2016.11.07-21.51.52:758][ 33]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.07-21.51.52:771][ 33]LogInit: FAudioDevice initialized.
+[2016.11.07-21.51.52:817][ 33]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.11.07-21.51.52:822][ 33]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.11.07-16.51.52
+[2016.11.07-21.51.52:822][ 33]LogWorld: Bringing up level for play took: 0.004176
+[2016.11.07-21.51.52:823][ 33]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.07-21.51.52:823][ 33]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
+[2016.11.07-21.51.52:824][ 33]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.07-21.51.52:824][ 33]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.083
+[2016.11.07-21.51.52:849][ 33]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2016.11.07-21.51.54:540][218]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2016.11.07-21.51.54:599][218]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2016.11.07-21.51.56:361][411]Cmd: SELECT NONE
+[2016.11.07-21.52.11:582][112]Cmd: TRANSACTION UNDO
+[2016.11.07-21.52.11:582][112]LogEditorTransaction: Undo Edit Zenith Color
+[2016.11.07-21.52.11:896][146]Cmd: TRANSACTION UNDO
+[2016.11.07-21.52.11:896][146]LogEditorTransaction: Undo Clicking on Actors
+[2016.11.07-21.52.15:809][590]Cmd: TRANSACTION UNDO
+[2016.11.07-21.52.15:809][590]LogEditorTransaction: Undo Clicking on Actors
+[2016.11.07-21.52.17:255][754]Cmd: TRANSACTION UNDO
+[2016.11.07-21.52.17:255][754]LogEditorTransaction: Undo Clicking on Actors
+[2016.11.07-21.52.18:062][836]Cmd: TRANSACTION UNDO
+[2016.11.07-21.52.18:062][836]LogEditorTransaction: Undo Clicking on Actors
+[2016.11.07-21.52.18:793][920]Cmd: TRANSACTION UNDO
+[2016.11.07-21.52.18:793][920]LogEditorTransaction: Undo Select None
+[2016.11.07-21.52.19:571][  4]Cmd: TRANSACTION UNDO
+[2016.11.07-21.52.19:571][  4]LogEditorTransaction: Undo Edit Zenith Color
+[2016.11.07-21.52.37:939][ 58]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2016.11.07-21.52.37:939][ 58]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.07-21.52.37:939][ 58]PIE: New page: PIE session: Level1 (Nov 7, 2016, 11:52:37 AM)
+[2016.11.07-21.52.37:939][ 58]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2016.11.07-21.52.37:950][ 58]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011392s)
+[2016.11.07-21.52.37:951][ 58]LogAIModule: Creating AISystem for world Level1
+[2016.11.07-21.52.37:951][ 58]LogPlayLevel: PIE: World Init took: (0.000633s)
+[2016.11.07-21.52.37:951][ 58]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.012207s)
+[2016.11.07-21.52.37:972][ 58]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.07-21.52.37:984][ 58]LogInit: FAudioDevice initialized.
+[2016.11.07-21.52.38:019][ 58]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.11.07-21.52.38:026][ 58]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.11.07-16.52.38
+[2016.11.07-21.52.38:026][ 58]LogWorld: Bringing up level for play took: 0.005993
+[2016.11.07-21.52.38:027][ 58]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.07-21.52.38:027][ 58]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.07-21.52.38:027][ 58]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.07-21.52.38:028][ 58]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.07-21.52.38:029][ 58]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.713
+[2016.11.07-21.52.38:029][ 58]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2016.11.07-21.52.39:507][231]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2016.11.07-21.52.39:541][231]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2016.11.07-21.52.46:871][ 52]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.11.07-21.52.47:456][120]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.11.07-21.53.13:616][ 92]Cmd: TRANSACTION UNDO
+[2016.11.07-21.53.13:616][ 92]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2016.11.07-21.53.13:896][119]Cmd: TRANSACTION UNDO
+[2016.11.07-21.53.13:896][119]LogEditorTransaction: Undo Edit Zenith Color
+[2016.11.07-21.53.14:135][144]Cmd: TRANSACTION UNDO
+[2016.11.07-21.53.14:135][144]LogEditorTransaction: Undo Edit Cloud Color
+[2016.11.07-21.53.14:342][166]Cmd: TRANSACTION UNDO
+[2016.11.07-21.53.14:342][166]LogEditorTransaction: Undo Edit Cloud Color
+[2016.11.07-21.53.14:602][194]Cmd: TRANSACTION UNDO
+[2016.11.07-21.53.14:602][194]LogEditorTransaction: Undo Clicking on Actors
+[2016.11.07-21.53.14:789][214]Cmd: TRANSACTION UNDO
+[2016.11.07-21.53.14:789][214]LogEditorTransaction: Undo Clicking on Actors
+[2016.11.07-21.53.14:996][237]Cmd: TRANSACTION UNDO
+[2016.11.07-21.53.14:997][237]LogEditorTransaction: Undo Edit Overall Color
+[2016.11.07-21.53.15:220][261]Cmd: TRANSACTION UNDO
+[2016.11.07-21.53.15:220][261]LogEditorTransaction: Undo Edit Overall Color
+[2016.11.07-21.53.15:463][288]Cmd: TRANSACTION UNDO
+[2016.11.07-21.53.15:463][288]LogEditorTransaction: Undo Edit Horizon Color
+[2016.11.07-21.53.15:660][309]Cmd: TRANSACTION UNDO
+[2016.11.07-21.53.15:660][309]LogEditorTransaction: Undo Clicking on Actors
+[2016.11.07-21.53.15:891][332]Cmd: TRANSACTION UNDO
+[2016.11.07-21.53.15:891][332]LogEditorTransaction: Undo Clicking on Actors
+[2016.11.07-21.53.16:655][416]Cmd: TRANSACTION UNDO
+[2016.11.07-21.53.16:655][416]LogEditorTransaction: Undo Clicking on Actors
+[2016.11.07-21.53.17:263][479]Cmd: TRANSACTION UNDO
+[2016.11.07-21.53.17:263][479]LogEditorTransaction: Undo Clicking on Actors
+[2016.11.07-21.53.18:802][653]Cmd: TRANSACTION UNDO
+[2016.11.07-21.53.18:802][653]LogEditorTransaction: Undo Select Brush Surface
+[2016.11.07-21.53.20:084][798]Cmd: TRANSACTION UNDO
+[2016.11.07-21.53.20:084][798]LogEditorTransaction: Undo Edit Static Mesh
+[2016.11.07-21.53.21:323][943]Cmd: TRANSACTION REDO
+[2016.11.07-21.53.21:323][943]LogEditorTransaction: Redo Edit Static Mesh
+[2016.11.07-21.53.25:773][438]LogTexture:Display: Building textures: SunsetAmbientCubemap (RGBA16F)
+[2016.11.07-21.53.32:292][438]LogTexture:Display: Building textures: SimplygonLogo (AutoDXT)
+[2016.11.07-21.53.32:500][438]LogRenderer: Reallocating scene render targets to support 1432x1044 (Frame:43392).
+[2016.11.07-21.53.44:041][544]Cmd: TRANSACTION UNDO
+[2016.11.07-21.53.44:041][544]LogEditorTransaction: Undo Edit Static Mesh
+[2016.11.07-21.54.01:307][133]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
+[2016.11.07-21.54.01:388][133]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
+[2016.11.07-21.54.01:391][133]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.07-21.54.01:418][133]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_12, compiling. 
+[2016.11.07-21.54.01:422][133]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_13, compiling. 
+[2016.11.07-21.54.01:425][133]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_14, compiling. 
+[2016.11.07-21.54.01:429][133]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_15, compiling. 
+[2016.11.07-21.54.01:433][133]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2016.11.07-21.54.01:437][133]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_16, compiling. 
+[2016.11.07-21.54.01:441][133]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_17, compiling. 
+[2016.11.07-21.54.01:444][133]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2016.11.07-21.54.01:448][133]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.11.07-21.54.01:453][133]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2016.11.07-21.54.01:457][133]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.11.07-21.54.01:883][143]MaterialEditorStats: Info Base pass shader without light map: 70 instructions
+[2016.11.07-21.54.01:883][143]MaterialEditorStats: Info Vertex shader: 30 instructions
+[2016.11.07-21.54.01:883][143]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.11.07-21.54.26:954][356]LogEditorTransaction: Undo Edit Light Map Resolution
+[2016.11.07-21.54.27:815][434]LogEditorTransaction: Undo Edit Light Map Resolution
+[2016.11.07-21.54.27:824][434]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2016.11.07-21.54.28:255][434]LogCrashTracker: 
+
+
+[2016.11.07-21.54.28:255][434]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2016.11.07-21.54.28:267][434]LogCrashTracker: 
+
+
+[2016.11.07-21.54.28:267][434]LogWindows:Error: === Critical error: ===
+[2016.11.07-21.54.28:267][434]LogWindows:Error: 
+[2016.11.07-21.54.28:267][434]LogWindows:Error: Fatal error: [File:D:\Build\++UE4+Release-4.13+Compile\Sync\Engine\Source\Runtime\RenderCore\Private\RenderingThread.cpp] [Line: 721] 
+[2016.11.07-21.54.28:267][434]LogWindows:Error: Rendering thread exception:
+[2016.11.07-21.54.28:267][434]LogWindows:Error: Assertion failed: Mesh.VertexFactory->IsInitialized() [File:D:\Build\++UE4+Release-4.13+Compile\Sync\Engine\Source\Runtime\Renderer\Private\PrimitiveSceneInfo.cpp] [Line: 45] 
+[2016.11.07-21.54.28:267][434]LogWindows:Error: 
+[2016.11.07-21.54.28:267][434]LogWindows:Error: 
+[2016.11.07-21.54.28:267][434]LogWindows:Error: 
+[2016.11.07-21.54.28:267][434]LogWindows:Error: KERNELBASE.dll
+[2016.11.07-21.54.28:268][434]LogWindows:Error: UE4Editor-Core.dll
+[2016.11.07-21.54.28:268][434]LogWindows:Error: UE4Editor-Core.dll
+[2016.11.07-21.54.28:268][434]LogWindows:Error: UE4Editor-Core.dll
+[2016.11.07-21.54.28:268][434]LogWindows:Error: UE4Editor-Renderer.dll
+[2016.11.07-21.54.28:268][434]LogWindows:Error: UE4Editor-Engine.dll
+[2016.11.07-21.54.28:268][434]LogWindows:Error: UE4Editor-Renderer.dll
+[2016.11.07-21.54.28:268][434]LogWindows:Error: UE4Editor-Renderer.dll
+[2016.11.07-21.54.28:268][434]LogWindows:Error: UE4Editor-Renderer.dll
+[2016.11.07-21.54.28:268][434]LogWindows:Error: UE4Editor-Renderer.dll
+[2016.11.07-21.54.28:268][434]LogWindows:Error: UE4Editor-Renderer.dll
+[2016.11.07-21.54.28:268][434]LogWindows:Error: UE4Editor-Core.dll
+[2016.11.07-21.54.28:268][434]LogWindows:Error: UE4Editor-Core.dll
+[2016.11.07-21.54.28:268][434]LogWindows:Error: UE4Editor-RenderCore.dll
+[2016.11.07-21.54.28:268][434]LogWindows:Error: UE4Editor-RenderCore.dll
+[2016.11.07-21.54.28:268][434]LogWindows:Error: UE4Editor-Core.dll
+[2016.11.07-21.54.28:268][434]LogWindows:Error: UE4Editor-Core.dll
+[2016.11.07-21.54.28:268][434]LogWindows:Error: KERNEL32.DLL
+[2016.11.07-21.54.28:268][434]LogWindows:Error: ntdll.dll
+[2016.11.07-21.54.28:268][434]LogWindows:Error: ntdll.dll
+[2016.11.07-21.54.28:268][434]LogWindows:Error: 
+[2016.11.07-21.54.28:268][434]LogWindows:Error: 
+[2016.11.07-21.54.28:268][434]LogWindows:Error: 
+[2016.11.07-21.54.28:268][434]LogWindows:Error: 
+[2016.11.07-21.54.28:286][434]LogExit: Executing StaticShutdownAfterError
+[2016.11.07-21.54.28:292][434]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.11.07-21.54.28:293][434]Log file closed, 11/07/16 16:54:28
