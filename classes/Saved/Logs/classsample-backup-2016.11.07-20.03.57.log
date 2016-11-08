@@ -1,0 +1,843 @@
+﻿Log file open, 11/07/16 19:33:44
+LogInit:Display: Running engine for game: classsample
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(839721340) SRandInit(839721340).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.091224
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files/Epic Games/4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files/Epic Games/4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files/Epic Games/4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.13-CL-3172292
+LogInit: Engine Version: 4.13.2-3172292+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3172292
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Oct 24 2016 14:29:06
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.11.08-00.33.44:891][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.08-00.33.44:891][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.08-00.33.44:905][  0]LogInit: Computer: SA2411-PC12
+[2016.11.08-00.33.44:905][  0]LogInit: User: CARVAI
+[2016.11.08-00.33.44:905][  0]LogInit: CPU Page size=65536, Cores=6
+[2016.11.08-00.33.44:905][  0]LogInit: High frequency timer resolution =3.410075 MHz
+[2016.11.08-00.33.44:905][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2016.11.08-00.33.44:905][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.08-00.33.44:905][  0]LogMemory: Process Physical Memory: 256.20 MB used, 256.20 MB peak
+[2016.11.08-00.33.44:905][  0]LogMemory: Process Virtual Memory: 260.37 MB used, 260.37 MB peak
+[2016.11.08-00.33.44:905][  0]LogMemory: Physical Memory: 6461.03 MB used, 32690.30 MB total
+[2016.11.08-00.33.44:905][  0]LogMemory: Virtual Memory: 625.47 MB used, 134217728.00 MB total
+[2016.11.08-00.33.44:932][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.11.08-00.33.45:478][  0]LogD3D11RHI: D3D11 adapters:
+[2016.11.08-00.33.45:508][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2016.11.08-00.33.45:508][  0]LogD3D11RHI:       8144/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2016.11.08-00.33.45:509][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.11.08-00.33.45:509][  0]LogD3D11RHI:       0/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.11.08-00.33.45:509][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.11.08-00.33.45:513][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.11.08-00.33.45:513][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2016.11.08-00.33.45:513][  0]LogWindows: EnumDisplayDevices:
+[2016.11.08-00.33.45:513][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2016.11.08-00.33.45:513][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2016.11.08-00.33.45:514][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2016.11.08-00.33.45:514][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2016.11.08-00.33.45:514][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.11.08-00.33.45:514][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2016.11.08-00.33.45:514][  0]LogD3D11RHI:   Driver Version: 372.54 (internal:21.21.13.7254, unified:372.54)
+[2016.11.08-00.33.45:514][  0]LogD3D11RHI:      Driver Date: 8-11-2016
+[2016.11.08-00.33.45:514][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.11.08-00.33.45:527][  0]LogD3D11RHI: Async texture creation enabled
+[2016.11.08-00.33.45:537][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.11.08-00.33.45:537][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/carvai/Desktop/game3/Tiki-Express/classes/Intermediate/Shaders/WorkingDirectory/9352/).
+[2016.11.08-00.33.45:538][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/carvai/AppData/Local/Temp/UnrealShaderWorkingDir/F5B9F7F94EE303FDF1F419B61E163A68/'.
+[2016.11.08-00.33.45:538][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.08-00.33.46:597][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.11.08-00.33.46:606][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.08-00.33.46:616][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.08-00.33.46:623][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.08-00.33.46:630][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.08-00.33.46:636][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.11.08-00.33.46:642][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.11.08-00.33.46:648][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.11.08-00.33.46:654][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.11.08-00.33.46:660][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.11.08-00.33.46:665][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.11.08-00.33.46:677][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.11.08-00.33.46:677][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.11.08-00.33.46:678][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.11.08-00.33.46:709][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.11.08-00.33.46:717][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.11.08-00.33.46:722][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.11.08-00.33.46:728][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.11.08-00.33.46:734][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.11.08-00.33.46:746][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.11.08-00.33.46:746][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.08-00.33.46:858][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.08-00.33.46:942][  0]LogDerivedDataCache: Loaded boot cache 0.08s 63MB C:/Users/carvai/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.11.08-00.33.46:942][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/carvai/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2016.11.08-00.33.46:942][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/carvai/Desktop/game3/Tiki-Express/classes/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.08-00.33.46:942][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.08-00.33.46:942][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/carvai/Desktop/game3/Tiki-Express/classes/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.08-00.33.46:942][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.08-00.33.46:964][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.08-00.33.46:977][  0]LogDerivedDataCache: Using Local data cache path C:/Users/carvai/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.08-00.33.47:177][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.08-00.33.47:179][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.11.08-00.33.47:273][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.11.08-00.33.47:273][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.08-00.33.47:273][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.11.08-00.33.47:363][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.11.08-00.33.47:744][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: classsample, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 2038946588
+[2016.11.08-00.33.47:779][  0]LogAssetRegistry: FAssetRegistry took 0.0214 seconds to start up
+[2016.11.08-00.33.47:819][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.037857 seconds
+[2016.11.08-00.33.47:829][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2016.11.08-00.33.47:829][  0]LogUObjectAllocator: 6125448 out of 0 bytes used by permanent object pool.
+[2016.11.08-00.33.47:829][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.11.08-00.33.47:841][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.11.08-00.33.48:030][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.08-00.33.48:030][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.08-00.33.48:611][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.11.08-00.33.48:629][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.08-00.33.48:855][  0]SourceControl: Info Source control is disabled
+[2016.11.08-00.33.48:913][  0]SourceControl: Info Source control is disabled
+[2016.11.08-00.33.48:919][  0]SourceControl: Info Source control is disabled
+[2016.11.08-00.33.48:925][  0]SourceControl: Info Source control is disabled
+[2016.11.08-00.33.49:130][  0]LogEngine: Initializing Engine...
+[2016.11.08-00.33.49:130][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.11.08-00.33.49:257][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.11.08-00.33.49:264][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.08-00.33.49:277][  0]LogInit: FAudioDevice initialized.
+[2016.11.08-00.33.49:324][  0]LogDerivedDataCache: Saved boot cache 0.05s 63MB C:/Users/carvai/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.11.08-00.33.49:335][  0]LogInit: Texture streaming: Enabled
+[2016.11.08-00.33.49:357][  0]LogInit: Transaction tracking system initialized
+[2016.11.08-00.33.49:373][  0]BlueprintLog: New page: Editor Load
+[2016.11.08-00.33.49:426][  0]LocalizationService: Info Localization service is disabled
+[2016.11.08-00.33.49:485][  0]LogConsoleResponse:Display: 
+[2016.11.08-00.33.49:586][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.11.08-00.33.49:586][  0]LogCook:Display: Mobile HDR setting 1
+[2016.11.08-00.33.49:699][  0]LogFileCache: Scanning file cache for directory 'C:/Users/carvai/Desktop/game3/Tiki-Express/classes/Content/' took 0.02s
+[2016.11.08-00.33.49:699][  0]SourceControl: Info Source control is disabled
+[2016.11.08-00.33.49:699][  0]Cmd: MAP LOAD FILE="../../../../../../Users/carvai/Desktop/game3/Tiki-Express/classes/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.08-00.33.49:700][  0]LightingResults: New page: Lighting Build
+[2016.11.08-00.33.49:702][  0]MapCheck: New page: Map Check
+[2016.11.08-00.33.49:702][  0]LightingResults: New page: Lighting Build
+[2016.11.08-00.33.50:036][  0]LogLinker:Warning: Can't find file '/Game/lambert1'
+[2016.11.08-00.33.50:036][  0]LogLinker:Warning: Can't find file for asset '/Game/lambert1' while loading ../../../../../../Users/carvai/Desktop/game3/Tiki-Express/classes/Content/volcanooo.uasset.
+[2016.11.08-00.33.50:036][  0]LoadErrors:Error: Error /Game/volcanooo : Can't find file for asset. /Game/lambert1
+[2016.11.08-00.33.50:036][  0]LogLinker:Warning: Can't find file '/Game/lambert1'
+[2016.11.08-00.33.50:036][  0]LogLinker:Warning: Can't find file for asset '/Game/lambert1' while loading ../../../../../../Users/carvai/Desktop/game3/Tiki-Express/classes/Content/volcanooo.uasset.
+[2016.11.08-00.33.50:036][  0]LoadErrors:Error: Error /Game/volcanooo : Can't find file for asset. /Game/lambert1
+[2016.11.08-00.33.50:046][  0]LogLinker:Warning: Can't find file '/Game/lambert1'
+[2016.11.08-00.33.50:046][  0]LoadErrors: Info Failed to load /Game/lambert1.lambert1 Referenced by volcanooo
+[2016.11.08-00.33.50:046][  0]LogLinker:Warning: Can't find file for asset '/Game/lambert1' while loading NULL.
+[2016.11.08-00.33.50:046][  0]LoadErrors: Info Failed to load /Game/lambert1.lambert1 Referenced by volcanooo
+[2016.11.08-00.33.50:158][  0]LogStaticMesh: Building static mesh volcanooo...
+[2016.11.08-00.33.50:168][  0]LogStaticMesh: Built static mesh [0.01s] /Game/volcanooo.volcanooo
+[2016.11.08-00.33.50:171][  0]LogTexture:Display: Building textures: UI_object3 (BGRA8)
+[2016.11.08-00.33.50:555][  0]LogAIModule: Creating AISystem for world Level1
+[2016.11.08-00.33.50:563][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.08-00.33.50:564][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.08-00.33.50:603][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 39.663ms to complete.
+[2016.11.08-00.33.50:603][  0]LogFileHelpers: Loading map 'Level1' took 0.904
+[2016.11.08-00.33.50:863][  0]LogCollectionManager: Loaded 0 collections in 0.001047 seconds
+[2016.11.08-00.33.50:905][  0]LogFileCache: Scanning file cache for directory 'C:/Users/carvai/Desktop/game3/Tiki-Express/classes/Saved/Collections/' took 0.01s
+[2016.11.08-00.33.50:905][  0]LogFileCache: Scanning file cache for directory 'C:/Users/carvai/Desktop/game3/Tiki-Express/classes/Content/Developers/CARVAI/Collections/' took 0.01s
+[2016.11.08-00.33.50:905][  0]LogFileCache: Scanning file cache for directory 'C:/Users/carvai/Desktop/game3/Tiki-Express/classes/Content/Collections/' took 0.01s
+[2016.11.08-00.33.50:906][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.11.08-00.33.50:914][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2141 classes and 415 folders.
+[2016.11.08-00.33.50:917][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.11.08-00.33.50:917][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.11.08-00.33.50:917][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.11.08-00.33.50:920][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.11.08-00.33.50:952][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.11.08-00.33.50:956][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.11.08-00.33.50:968][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.08-00.33.50:993][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.08-00.33.51:040][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.11.08-00.33.51:040][  0]LogLoad: (Engine Initialization) Total time: 7.10 seconds
+[2016.11.08-00.33.51:040][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.16 seconds
+[2016.11.08-00.33.51:040][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.11.08-00.33.51:040][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.11.08-00.33.51:050][  0]LogOcInput: OculusInput pre-init called
+[2016.11.08-00.33.51:083][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.11.08-00.33.51:248][  0]LogRenderer: Reallocating scene render targets to support 1208x652 (Frame:2).
+[2016.11.08-00.33.51:339][  1]LogAssetRegistry: Asset discovery search completed in 3.5814 seconds
+[2016.11.08-00.33.51:339][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.11.08-00.33.51:339][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2016.11.08-00.33.56:321][555]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/carvai/Desktop/game3/Tiki-Express/classes/Content/' took 5.26s
+[2016.11.08-00.34.01:935][199]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (volcanooo)
+[2016.11.08-00.34.02:093][212]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.11.08-00.34.36:984][218]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (volcanooo)
+[2016.11.08-00.38.25:364][798]AssetReimport: New page: Outstanding source content changes 2:38:25 PM
+[2016.11.08-00.38.25:365][798]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/carvai/Desktop/game3/Tiki-Express/classes/Content/pushing_anim.fbx)
+[2016.11.08-00.38.25:371][798]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.11.08-00.38.25:372][798]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.11.08-00.38.25:372][798]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.11.08-00.38.25:372][798]LogFbx: ItemName: NodeAttribute, ItemCount : 64
+[2016.11.08-00.38.25:372][798]LogFbx: ItemName: Model, ItemCount : 68
+[2016.11.08-00.38.25:372][798]LogFbx: ItemName: Geometry, ItemCount : 4
+[2016.11.08-00.38.25:372][798]LogFbx: ItemName: Material, ItemCount : 4
+[2016.11.08-00.38.25:372][798]LogFbx: ItemName: Texture, ItemCount : 2
+[2016.11.08-00.38.25:372][798]LogFbx: ItemName: AnimationCurveNode, ItemCount : 229
+[2016.11.08-00.38.25:372][798]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2016.11.08-00.38.25:372][798]LogFbx: ItemName: AnimationCurve, ItemCount : 362
+[2016.11.08-00.38.25:372][798]LogFbx: ItemName: Pose, ItemCount : 1
+[2016.11.08-00.38.25:372][798]LogFbx: ItemName: Deformer, ItemCount : 23
+[2016.11.08-00.38.25:372][798]LogFbx: ItemName: Video, ItemCount : 2
+[2016.11.08-00.38.25:376][798]LogFbx: Loading FBX Scene from C:/Users/carvai/Desktop/game3/Tiki-Express/classes/Content/pushing_anim.fbx
+[2016.11.08-00.38.25:431][798]LogFbx: FBX Scene Loaded Succesfully
+[2016.11.08-00.38.27:393][798]LogFbx: Loading FBX Scene from C:/Users/carvai/Desktop/game3/Tiki-Express/classes/Content/pushing_anim.fbx
+[2016.11.08-00.38.27:451][798]LogFbx: FBX Scene Loaded Succesfully
+[2016.11.08-00.38.27:455][798]LogFbx: =================================================
+[2016.11.08-00.38.27:455][798]LogFbx: Dumping Node START [guy:human_model:base_obj] 
+[2016.11.08-00.38.27:455][798]LogFbx: 	Total Deformer Count -1177978960.
+[2016.11.08-00.38.27:455][798]LogFbx: 		[Node 1]  (Type Skin).
+[2016.11.08-00.38.27:455][798]LogFbx: =================================================
+[2016.11.08-00.38.27:455][798]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.27:455][798]LogFbx: 		[Node Attribute Child 1] guy:human_model:base_obj (Type Mesh).
+[2016.11.08-00.38.27:455][798]LogFbx: Dumping Node END [guy:human_model:base_obj]
+[2016.11.08-00.38.27:455][798]LogFbx: =================================================
+[2016.11.08-00.38.27:455][798]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:tie] 
+[2016.11.08-00.38.27:455][798]LogFbx: 	Total Deformer Count -1112291392.
+[2016.11.08-00.38.27:455][798]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.27:455][798]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:tie (Type Mesh).
+[2016.11.08-00.38.27:455][798]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:tie]
+[2016.11.08-00.38.27:455][798]LogFbx: =================================================
+[2016.11.08-00.38.27:455][798]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:mask] 
+[2016.11.08-00.38.27:455][798]LogFbx: 	Total Deformer Count -1112291392.
+[2016.11.08-00.38.27:455][798]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.27:455][798]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:mask (Type Mesh).
+[2016.11.08-00.38.27:455][798]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:mask]
+[2016.11.08-00.38.27:455][798]LogFbx: =================================================
+[2016.11.08-00.38.27:455][798]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:skirt] 
+[2016.11.08-00.38.27:455][798]LogFbx: 	Total Deformer Count -1112291232.
+[2016.11.08-00.38.27:455][798]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.27:455][798]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:skirt (Type Mesh).
+[2016.11.08-00.38.27:455][798]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:skirt]
+[2016.11.08-00.38.27:455][798]LogFbx: =================================================
+[2016.11.08-00.38.27:455][798]LogFbx: Dumping Node START [guy:human_model:base_obj] 
+[2016.11.08-00.38.27:455][798]LogFbx: 	Total Deformer Count -1177979520.
+[2016.11.08-00.38.27:455][798]LogFbx: 		[Node 1]  (Type Skin).
+[2016.11.08-00.38.27:455][798]LogFbx: =================================================
+[2016.11.08-00.38.27:455][798]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.27:455][798]LogFbx: 		[Node Attribute Child 1] guy:human_model:base_obj (Type Mesh).
+[2016.11.08-00.38.27:455][798]LogFbx: Dumping Node END [guy:human_model:base_obj]
+[2016.11.08-00.38.27:455][798]LogFbx: =================================================
+[2016.11.08-00.38.27:455][798]LogFbx: Dumping Node START [guy:human_model:base_obj] 
+[2016.11.08-00.38.27:455][798]LogFbx: 	Total Deformer Count -1177979520.
+[2016.11.08-00.38.27:455][798]LogFbx: 		[Node 1]  (Type Skin).
+[2016.11.08-00.38.27:455][798]LogFbx: =================================================
+[2016.11.08-00.38.27:455][798]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.27:455][798]LogFbx: 		[Node Attribute Child 1] guy:human_model:base_obj (Type Mesh).
+[2016.11.08-00.38.27:455][798]LogFbx: Dumping Node END [guy:human_model:base_obj]
+[2016.11.08-00.38.27:455][798]LogFbx: =================================================
+[2016.11.08-00.38.27:455][798]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:tie] 
+[2016.11.08-00.38.27:455][798]LogFbx: 	Total Deformer Count -1112292672.
+[2016.11.08-00.38.27:455][798]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.27:455][798]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:tie (Type Mesh).
+[2016.11.08-00.38.27:455][798]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:tie]
+[2016.11.08-00.38.27:455][798]LogFbx: =================================================
+[2016.11.08-00.38.27:455][798]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:mask] 
+[2016.11.08-00.38.27:455][798]LogFbx: 	Total Deformer Count -1112292672.
+[2016.11.08-00.38.27:455][798]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.27:455][798]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:mask (Type Mesh).
+[2016.11.08-00.38.27:455][798]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:mask]
+[2016.11.08-00.38.27:456][798]LogFbx: =================================================
+[2016.11.08-00.38.27:456][798]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:tie] 
+[2016.11.08-00.38.27:456][798]LogFbx: 	Total Deformer Count -1178010240.
+[2016.11.08-00.38.27:456][798]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.27:456][798]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:tie (Type Mesh).
+[2016.11.08-00.38.27:456][798]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:tie]
+[2016.11.08-00.38.27:456][798]LogFbx: =================================================
+[2016.11.08-00.38.27:456][798]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:mask] 
+[2016.11.08-00.38.27:456][798]LogFbx: 	Total Deformer Count -1178010240.
+[2016.11.08-00.38.27:456][798]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.27:456][798]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:mask (Type Mesh).
+[2016.11.08-00.38.27:456][798]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:mask]
+[2016.11.08-00.38.27:456][798]LogFbx: =================================================
+[2016.11.08-00.38.27:456][798]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:tie] 
+[2016.11.08-00.38.27:456][798]LogFbx: 	Total Deformer Count -1178010080.
+[2016.11.08-00.38.27:456][798]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.27:456][798]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:tie (Type Mesh).
+[2016.11.08-00.38.27:456][798]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:tie]
+[2016.11.08-00.38.27:456][798]LogFbx: =================================================
+[2016.11.08-00.38.27:456][798]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:mask] 
+[2016.11.08-00.38.27:456][798]LogFbx: 	Total Deformer Count -1178010080.
+[2016.11.08-00.38.27:456][798]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.27:456][798]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:mask (Type Mesh).
+[2016.11.08-00.38.27:456][798]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:mask]
+[2016.11.08-00.38.27:456][798]LogFbx: =================================================
+[2016.11.08-00.38.27:456][798]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:skirt] 
+[2016.11.08-00.38.27:456][798]LogFbx: 	Total Deformer Count -1178010080.
+[2016.11.08-00.38.27:456][798]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.27:456][798]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:skirt (Type Mesh).
+[2016.11.08-00.38.27:456][798]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:skirt]
+[2016.11.08-00.38.27:456][798]LogFbx: Valid bind pose for Pose (skinCluster1) - guy:human_model:base_obj
+[2016.11.08-00.38.27:465][798]LogMaterial: Missing cached shader map for material DefaultSkin1, compiling. 
+[2016.11.08-00.38.27:489][798]LogFbx: Triangulating skeletal mesh guy:human_model:base_obj
+[2016.11.08-00.38.31:212][798]LogSkeletalMesh: Section 0: 14518 vertices, 22 active bones
+[2016.11.08-00.38.33:467][798]LogSkeletalMesh: Section 0: Material=0, 26754 triangles
+[2016.11.08-00.38.33:483][798]LogFbx: =================================================
+[2016.11.08-00.38.33:483][798]LogFbx: Dumping Node START [guy:human_model:base_obj] 
+[2016.11.08-00.38.33:483][798]LogFbx: 	Total Deformer Count -661567152.
+[2016.11.08-00.38.33:483][798]LogFbx: 		[Node 1]  (Type Skin).
+[2016.11.08-00.38.33:483][798]LogFbx: =================================================
+[2016.11.08-00.38.33:483][798]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.33:483][798]LogFbx: 		[Node Attribute Child 1] guy:human_model:base_obj (Type Mesh).
+[2016.11.08-00.38.33:483][798]LogFbx: Dumping Node END [guy:human_model:base_obj]
+[2016.11.08-00.38.33:484][798]LogFbx: =================================================
+[2016.11.08-00.38.33:484][798]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:tie] 
+[2016.11.08-00.38.33:484][798]LogFbx: 	Total Deformer Count -661371904.
+[2016.11.08-00.38.33:484][798]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.33:484][798]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:tie (Type Mesh).
+[2016.11.08-00.38.33:484][798]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:tie]
+[2016.11.08-00.38.33:484][798]LogFbx: =================================================
+[2016.11.08-00.38.33:484][798]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:mask] 
+[2016.11.08-00.38.33:484][798]LogFbx: 	Total Deformer Count -661371904.
+[2016.11.08-00.38.33:484][798]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.33:484][798]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:mask (Type Mesh).
+[2016.11.08-00.38.33:484][798]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:mask]
+[2016.11.08-00.38.33:484][798]LogFbx: =================================================
+[2016.11.08-00.38.33:484][798]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:skirt] 
+[2016.11.08-00.38.33:484][798]LogFbx: 	Total Deformer Count -661371744.
+[2016.11.08-00.38.33:484][798]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.33:484][798]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:skirt (Type Mesh).
+[2016.11.08-00.38.33:484][798]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:skirt]
+[2016.11.08-00.38.33:484][798]LogFbx: =================================================
+[2016.11.08-00.38.33:484][798]LogFbx: Dumping Node START [guy:human_model:base_obj] 
+[2016.11.08-00.38.33:484][798]LogFbx: 	Total Deformer Count -661567152.
+[2016.11.08-00.38.33:484][798]LogFbx: 		[Node 1]  (Type Skin).
+[2016.11.08-00.38.33:484][798]LogFbx: =================================================
+[2016.11.08-00.38.33:484][798]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.33:484][798]LogFbx: 		[Node Attribute Child 1] guy:human_model:base_obj (Type Mesh).
+[2016.11.08-00.38.33:484][798]LogFbx: Dumping Node END [guy:human_model:base_obj]
+[2016.11.08-00.38.33:484][798]LogFbx: =================================================
+[2016.11.08-00.38.33:484][798]LogFbx: Dumping Node START [guy:human_model:base_obj] 
+[2016.11.08-00.38.33:484][798]LogFbx: 	Total Deformer Count -661567152.
+[2016.11.08-00.38.33:484][798]LogFbx: 		[Node 1]  (Type Skin).
+[2016.11.08-00.38.33:484][798]LogFbx: =================================================
+[2016.11.08-00.38.33:484][798]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.33:484][798]LogFbx: 		[Node Attribute Child 1] guy:human_model:base_obj (Type Mesh).
+[2016.11.08-00.38.33:484][798]LogFbx: Dumping Node END [guy:human_model:base_obj]
+[2016.11.08-00.38.33:484][798]LogFbx: =================================================
+[2016.11.08-00.38.33:484][798]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:tie] 
+[2016.11.08-00.38.33:484][798]LogFbx: 	Total Deformer Count -1112048096.
+[2016.11.08-00.38.33:484][798]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.33:484][798]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:tie (Type Mesh).
+[2016.11.08-00.38.33:484][798]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:tie]
+[2016.11.08-00.38.33:484][798]LogFbx: =================================================
+[2016.11.08-00.38.33:484][798]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:mask] 
+[2016.11.08-00.38.33:484][798]LogFbx: 	Total Deformer Count -1112048096.
+[2016.11.08-00.38.33:484][798]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.33:484][798]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:mask (Type Mesh).
+[2016.11.08-00.38.33:484][798]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:mask]
+[2016.11.08-00.38.33:485][798]LogFbx: =================================================
+[2016.11.08-00.38.33:485][798]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:tie] 
+[2016.11.08-00.38.33:485][798]LogFbx: 	Total Deformer Count -1112048096.
+[2016.11.08-00.38.33:485][798]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.33:485][798]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:tie (Type Mesh).
+[2016.11.08-00.38.33:485][798]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:tie]
+[2016.11.08-00.38.33:485][798]LogFbx: =================================================
+[2016.11.08-00.38.33:485][798]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:mask] 
+[2016.11.08-00.38.33:485][798]LogFbx: 	Total Deformer Count -1112048096.
+[2016.11.08-00.38.33:485][798]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.33:485][798]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:mask (Type Mesh).
+[2016.11.08-00.38.33:485][798]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:mask]
+[2016.11.08-00.38.33:485][798]LogFbx: =================================================
+[2016.11.08-00.38.33:485][798]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:tie] 
+[2016.11.08-00.38.33:485][798]LogFbx: 	Total Deformer Count -1112047936.
+[2016.11.08-00.38.33:485][798]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.33:485][798]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:tie (Type Mesh).
+[2016.11.08-00.38.33:485][798]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:tie]
+[2016.11.08-00.38.33:485][798]LogFbx: =================================================
+[2016.11.08-00.38.33:485][798]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:mask] 
+[2016.11.08-00.38.33:485][798]LogFbx: 	Total Deformer Count -1112047936.
+[2016.11.08-00.38.33:485][798]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.33:485][798]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:mask (Type Mesh).
+[2016.11.08-00.38.33:485][798]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:mask]
+[2016.11.08-00.38.33:485][798]LogFbx: =================================================
+[2016.11.08-00.38.33:485][798]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:skirt] 
+[2016.11.08-00.38.33:485][798]LogFbx: 	Total Deformer Count -1112047936.
+[2016.11.08-00.38.33:485][798]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.33:485][798]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:skirt (Type Mesh).
+[2016.11.08-00.38.33:485][798]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:skirt]
+[2016.11.08-00.38.33:485][798]LogFbx: SortedLinks :(0) QuickRigCharacter_Reference
+[2016.11.08-00.38.33:485][798]LogFbx: SortedLinks :(1) QuickRigCharacter_Hips
+[2016.11.08-00.38.33:485][798]LogFbx: SortedLinks :(2) QuickRigCharacter_LeftUpLeg
+[2016.11.08-00.38.33:485][798]LogFbx: SortedLinks :(3) QuickRigCharacter_LeftLeg
+[2016.11.08-00.38.33:485][798]LogFbx: SortedLinks :(4) QuickRigCharacter_LeftFoot
+[2016.11.08-00.38.33:485][798]LogFbx: SortedLinks :(5) QuickRigCharacter_LeftToeBase
+[2016.11.08-00.38.33:485][798]LogFbx: SortedLinks :(6) QuickRigCharacter_RightUpLeg
+[2016.11.08-00.38.33:485][798]LogFbx: SortedLinks :(7) QuickRigCharacter_RightLeg
+[2016.11.08-00.38.33:485][798]LogFbx: SortedLinks :(8) QuickRigCharacter_RightFoot
+[2016.11.08-00.38.33:485][798]LogFbx: SortedLinks :(9) QuickRigCharacter_RightToeBase
+[2016.11.08-00.38.33:485][798]LogFbx: SortedLinks :(10) QuickRigCharacter_Spine
+[2016.11.08-00.38.33:485][798]LogFbx: SortedLinks :(11) QuickRigCharacter_Spine1
+[2016.11.08-00.38.33:485][798]LogFbx: SortedLinks :(12) QuickRigCharacter_Spine2
+[2016.11.08-00.38.33:485][798]LogFbx: SortedLinks :(13) QuickRigCharacter_LeftShoulder
+[2016.11.08-00.38.33:485][798]LogFbx: SortedLinks :(14) QuickRigCharacter_LeftArm
+[2016.11.08-00.38.33:485][798]LogFbx: SortedLinks :(15) QuickRigCharacter_LeftForeArm
+[2016.11.08-00.38.33:485][798]LogFbx: SortedLinks :(16) QuickRigCharacter_LeftHand
+[2016.11.08-00.38.33:485][798]LogFbx: SortedLinks :(17) QuickRigCharacter_RightShoulder
+[2016.11.08-00.38.33:485][798]LogFbx: SortedLinks :(18) QuickRigCharacter_RightArm
+[2016.11.08-00.38.33:485][798]LogFbx: SortedLinks :(19) QuickRigCharacter_RightForeArm
+[2016.11.08-00.38.33:485][798]LogFbx: SortedLinks :(20) QuickRigCharacter_RightHand
+[2016.11.08-00.38.33:485][798]LogFbx: SortedLinks :(21) QuickRigCharacter_Neck
+[2016.11.08-00.38.33:485][798]LogFbx: SortedLinks :(22) QuickRigCharacter_Head
+[2016.11.08-00.38.33:486][798]LogFbx: Parsing AnimStack Take 001
+[2016.11.08-00.38.33:580][798]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/pushing_anim_Anim.pushing_anim_Anim
+[2016.11.08-00.38.33:636][799]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/carvai/Desktop/game3/Tiki-Express/classes/Content/pushpusgh4.fbx)
+[2016.11.08-00.38.33:639][799]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.11.08-00.38.33:639][799]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.11.08-00.38.33:639][799]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.11.08-00.38.33:639][799]LogFbx: ItemName: NodeAttribute, ItemCount : 64
+[2016.11.08-00.38.33:639][799]LogFbx: ItemName: Model, ItemCount : 67
+[2016.11.08-00.38.33:639][799]LogFbx: ItemName: Geometry, ItemCount : 3
+[2016.11.08-00.38.33:639][799]LogFbx: ItemName: Material, ItemCount : 3
+[2016.11.08-00.38.33:639][799]LogFbx: ItemName: Texture, ItemCount : 2
+[2016.11.08-00.38.33:639][799]LogFbx: ItemName: AnimationCurveNode, ItemCount : 230
+[2016.11.08-00.38.33:639][799]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2016.11.08-00.38.33:639][799]LogFbx: ItemName: AnimationCurve, ItemCount : 366
+[2016.11.08-00.38.33:639][799]LogFbx: ItemName: Pose, ItemCount : 1
+[2016.11.08-00.38.33:639][799]LogFbx: ItemName: Deformer, ItemCount : 23
+[2016.11.08-00.38.33:639][799]LogFbx: ItemName: Video, ItemCount : 2
+[2016.11.08-00.38.33:643][799]LogFbx: Loading FBX Scene from C:/Users/carvai/Desktop/game3/Tiki-Express/classes/Content/pushpusgh4.fbx
+[2016.11.08-00.38.33:694][799]LogFbx: FBX Scene Loaded Succesfully
+[2016.11.08-00.38.36:353][799]LogFbx: Loading FBX Scene from C:/Users/carvai/Desktop/game3/Tiki-Express/classes/Content/pushpusgh4.fbx
+[2016.11.08-00.38.36:405][799]LogFbx: FBX Scene Loaded Succesfully
+[2016.11.08-00.38.36:408][799]LogFbx: =================================================
+[2016.11.08-00.38.36:409][799]LogFbx: Dumping Node START [guy:human_model:base_obj] 
+[2016.11.08-00.38.36:409][799]LogFbx: 	Total Deformer Count -654020432.
+[2016.11.08-00.38.36:409][799]LogFbx: 		[Node 1]  (Type Skin).
+[2016.11.08-00.38.36:409][799]LogFbx: =================================================
+[2016.11.08-00.38.36:409][799]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.36:409][799]LogFbx: 		[Node Attribute Child 1] guy:human_model:base_obj (Type Mesh).
+[2016.11.08-00.38.36:409][799]LogFbx: Dumping Node END [guy:human_model:base_obj]
+[2016.11.08-00.38.36:409][799]LogFbx: =================================================
+[2016.11.08-00.38.36:409][799]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:mask] 
+[2016.11.08-00.38.36:409][799]LogFbx: 	Total Deformer Count -653645760.
+[2016.11.08-00.38.36:409][799]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.36:409][799]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:mask (Type Mesh).
+[2016.11.08-00.38.36:409][799]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:mask]
+[2016.11.08-00.38.36:409][799]LogFbx: =================================================
+[2016.11.08-00.38.36:409][799]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:skirt] 
+[2016.11.08-00.38.36:409][799]LogFbx: 	Total Deformer Count -653645600.
+[2016.11.08-00.38.36:409][799]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.36:409][799]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:skirt (Type Mesh).
+[2016.11.08-00.38.36:409][799]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:skirt]
+[2016.11.08-00.38.36:409][799]LogFbx: =================================================
+[2016.11.08-00.38.36:409][799]LogFbx: Dumping Node START [guy:human_model:base_obj] 
+[2016.11.08-00.38.36:409][799]LogFbx: 	Total Deformer Count -654021216.
+[2016.11.08-00.38.36:409][799]LogFbx: 		[Node 1]  (Type Skin).
+[2016.11.08-00.38.36:409][799]LogFbx: =================================================
+[2016.11.08-00.38.36:409][799]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.36:409][799]LogFbx: 		[Node Attribute Child 1] guy:human_model:base_obj (Type Mesh).
+[2016.11.08-00.38.36:409][799]LogFbx: Dumping Node END [guy:human_model:base_obj]
+[2016.11.08-00.38.36:409][799]LogFbx: =================================================
+[2016.11.08-00.38.36:409][799]LogFbx: Dumping Node START [guy:human_model:base_obj] 
+[2016.11.08-00.38.36:409][799]LogFbx: 	Total Deformer Count -654021216.
+[2016.11.08-00.38.36:409][799]LogFbx: 		[Node 1]  (Type Skin).
+[2016.11.08-00.38.36:409][799]LogFbx: =================================================
+[2016.11.08-00.38.36:409][799]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.36:409][799]LogFbx: 		[Node Attribute Child 1] guy:human_model:base_obj (Type Mesh).
+[2016.11.08-00.38.36:409][799]LogFbx: Dumping Node END [guy:human_model:base_obj]
+[2016.11.08-00.38.36:409][799]LogFbx: =================================================
+[2016.11.08-00.38.36:409][799]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:mask] 
+[2016.11.08-00.38.36:409][799]LogFbx: 	Total Deformer Count -653646720.
+[2016.11.08-00.38.36:409][799]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.36:409][799]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:mask (Type Mesh).
+[2016.11.08-00.38.36:409][799]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:mask]
+[2016.11.08-00.38.36:409][799]LogFbx: =================================================
+[2016.11.08-00.38.36:409][799]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:mask] 
+[2016.11.08-00.38.36:409][799]LogFbx: 	Total Deformer Count -653646720.
+[2016.11.08-00.38.36:409][799]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.36:409][799]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:mask (Type Mesh).
+[2016.11.08-00.38.36:409][799]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:mask]
+[2016.11.08-00.38.36:410][799]LogFbx: =================================================
+[2016.11.08-00.38.36:410][799]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:mask] 
+[2016.11.08-00.38.36:410][799]LogFbx: 	Total Deformer Count -653646560.
+[2016.11.08-00.38.36:410][799]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.36:410][799]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:mask (Type Mesh).
+[2016.11.08-00.38.36:410][799]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:mask]
+[2016.11.08-00.38.36:410][799]LogFbx: =================================================
+[2016.11.08-00.38.36:410][799]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:skirt] 
+[2016.11.08-00.38.36:410][799]LogFbx: 	Total Deformer Count -653646560.
+[2016.11.08-00.38.36:410][799]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.36:410][799]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:skirt (Type Mesh).
+[2016.11.08-00.38.36:410][799]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:skirt]
+[2016.11.08-00.38.36:410][799]LogFbx: Valid bind pose for Pose (skinCluster1) - guy:human_model:base_obj
+[2016.11.08-00.38.36:411][799]LogFbx: Triangulating skeletal mesh guy:human_model:base_obj
+[2016.11.08-00.38.40:123][799]LogSkeletalMesh: Section 0: 14518 vertices, 22 active bones
+[2016.11.08-00.38.42:169][799]LogSkeletalMesh: Section 0: Material=0, 26754 triangles
+[2016.11.08-00.38.42:185][799]LogFbx: =================================================
+[2016.11.08-00.38.42:185][799]LogFbx: Dumping Node START [guy:human_model:base_obj] 
+[2016.11.08-00.38.42:185][799]LogFbx: 	Total Deformer Count -653569520.
+[2016.11.08-00.38.42:185][799]LogFbx: 		[Node 1]  (Type Skin).
+[2016.11.08-00.38.42:185][799]LogFbx: =================================================
+[2016.11.08-00.38.42:185][799]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.42:185][799]LogFbx: 		[Node Attribute Child 1] guy:human_model:base_obj (Type Mesh).
+[2016.11.08-00.38.42:185][799]LogFbx: Dumping Node END [guy:human_model:base_obj]
+[2016.11.08-00.38.42:185][799]LogFbx: =================================================
+[2016.11.08-00.38.42:185][799]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:mask] 
+[2016.11.08-00.38.42:185][799]LogFbx: 	Total Deformer Count -653649120.
+[2016.11.08-00.38.42:185][799]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.42:185][799]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:mask (Type Mesh).
+[2016.11.08-00.38.42:185][799]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:mask]
+[2016.11.08-00.38.42:185][799]LogFbx: =================================================
+[2016.11.08-00.38.42:185][799]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:skirt] 
+[2016.11.08-00.38.42:185][799]LogFbx: 	Total Deformer Count -653648800.
+[2016.11.08-00.38.42:185][799]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.42:185][799]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:skirt (Type Mesh).
+[2016.11.08-00.38.42:185][799]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:skirt]
+[2016.11.08-00.38.42:186][799]LogFbx: =================================================
+[2016.11.08-00.38.42:186][799]LogFbx: Dumping Node START [guy:human_model:base_obj] 
+[2016.11.08-00.38.42:186][799]LogFbx: 	Total Deformer Count -653569520.
+[2016.11.08-00.38.42:186][799]LogFbx: 		[Node 1]  (Type Skin).
+[2016.11.08-00.38.42:186][799]LogFbx: =================================================
+[2016.11.08-00.38.42:186][799]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.42:186][799]LogFbx: 		[Node Attribute Child 1] guy:human_model:base_obj (Type Mesh).
+[2016.11.08-00.38.42:186][799]LogFbx: Dumping Node END [guy:human_model:base_obj]
+[2016.11.08-00.38.42:186][799]LogFbx: =================================================
+[2016.11.08-00.38.42:186][799]LogFbx: Dumping Node START [guy:human_model:base_obj] 
+[2016.11.08-00.38.42:186][799]LogFbx: 	Total Deformer Count -653569520.
+[2016.11.08-00.38.42:186][799]LogFbx: 		[Node 1]  (Type Skin).
+[2016.11.08-00.38.42:186][799]LogFbx: =================================================
+[2016.11.08-00.38.42:186][799]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.42:186][799]LogFbx: 		[Node Attribute Child 1] guy:human_model:base_obj (Type Mesh).
+[2016.11.08-00.38.42:186][799]LogFbx: Dumping Node END [guy:human_model:base_obj]
+[2016.11.08-00.38.42:187][799]LogFbx: =================================================
+[2016.11.08-00.38.42:187][799]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:mask] 
+[2016.11.08-00.38.42:187][799]LogFbx: 	Total Deformer Count -653650080.
+[2016.11.08-00.38.42:187][799]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.42:187][799]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:mask (Type Mesh).
+[2016.11.08-00.38.42:187][799]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:mask]
+[2016.11.08-00.38.42:187][799]LogFbx: =================================================
+[2016.11.08-00.38.42:187][799]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:mask] 
+[2016.11.08-00.38.42:187][799]LogFbx: 	Total Deformer Count -653650080.
+[2016.11.08-00.38.42:187][799]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.42:187][799]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:mask (Type Mesh).
+[2016.11.08-00.38.42:187][799]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:mask]
+[2016.11.08-00.38.42:187][799]LogFbx: =================================================
+[2016.11.08-00.38.42:187][799]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:mask] 
+[2016.11.08-00.38.42:187][799]LogFbx: 	Total Deformer Count -653649920.
+[2016.11.08-00.38.42:187][799]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.42:187][799]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:mask (Type Mesh).
+[2016.11.08-00.38.42:187][799]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:mask]
+[2016.11.08-00.38.42:188][799]LogFbx: =================================================
+[2016.11.08-00.38.42:188][799]LogFbx: Dumping Node START [GliHum_v18:tiki_warrior_v03_freeClothes:skirt] 
+[2016.11.08-00.38.42:188][799]LogFbx: 	Total Deformer Count -653649920.
+[2016.11.08-00.38.42:188][799]LogFbx: 	Attribute () Type (4).
+[2016.11.08-00.38.42:188][799]LogFbx: 		[Node Attribute Child 1] GliHum_v18:tiki_warrior_v03_freeClothes:skirt (Type Mesh).
+[2016.11.08-00.38.42:188][799]LogFbx: Dumping Node END [GliHum_v18:tiki_warrior_v03_freeClothes:skirt]
+[2016.11.08-00.38.42:188][799]LogFbx: SortedLinks :(0) QuickRigCharacter_Reference
+[2016.11.08-00.38.42:188][799]LogFbx: SortedLinks :(1) QuickRigCharacter_Hips
+[2016.11.08-00.38.42:189][799]LogFbx: SortedLinks :(2) QuickRigCharacter_LeftUpLeg
+[2016.11.08-00.38.42:189][799]LogFbx: SortedLinks :(3) QuickRigCharacter_LeftLeg
+[2016.11.08-00.38.42:189][799]LogFbx: SortedLinks :(4) QuickRigCharacter_LeftFoot
+[2016.11.08-00.38.42:189][799]LogFbx: SortedLinks :(5) QuickRigCharacter_LeftToeBase
+[2016.11.08-00.38.42:189][799]LogFbx: SortedLinks :(6) QuickRigCharacter_RightUpLeg
+[2016.11.08-00.38.42:189][799]LogFbx: SortedLinks :(7) QuickRigCharacter_RightLeg
+[2016.11.08-00.38.42:189][799]LogFbx: SortedLinks :(8) QuickRigCharacter_RightFoot
+[2016.11.08-00.38.42:189][799]LogFbx: SortedLinks :(9) QuickRigCharacter_RightToeBase
+[2016.11.08-00.38.42:189][799]LogFbx: SortedLinks :(10) QuickRigCharacter_Spine
+[2016.11.08-00.38.42:189][799]LogFbx: SortedLinks :(11) QuickRigCharacter_Spine1
+[2016.11.08-00.38.42:189][799]LogFbx: SortedLinks :(12) QuickRigCharacter_Spine2
+[2016.11.08-00.38.42:189][799]LogFbx: SortedLinks :(13) QuickRigCharacter_LeftShoulder
+[2016.11.08-00.38.42:189][799]LogFbx: SortedLinks :(14) QuickRigCharacter_LeftArm
+[2016.11.08-00.38.42:189][799]LogFbx: SortedLinks :(15) QuickRigCharacter_LeftForeArm
+[2016.11.08-00.38.42:189][799]LogFbx: SortedLinks :(16) QuickRigCharacter_LeftHand
+[2016.11.08-00.38.42:189][799]LogFbx: SortedLinks :(17) QuickRigCharacter_RightShoulder
+[2016.11.08-00.38.42:189][799]LogFbx: SortedLinks :(18) QuickRigCharacter_RightArm
+[2016.11.08-00.38.42:189][799]LogFbx: SortedLinks :(19) QuickRigCharacter_RightForeArm
+[2016.11.08-00.38.42:189][799]LogFbx: SortedLinks :(20) QuickRigCharacter_RightHand
+[2016.11.08-00.38.42:189][799]LogFbx: SortedLinks :(21) QuickRigCharacter_Neck
+[2016.11.08-00.38.42:189][799]LogFbx: SortedLinks :(22) QuickRigCharacter_Head
+[2016.11.08-00.38.42:189][799]LogFbx: Parsing AnimStack Take 001
+[2016.11.08-00.38.42:317][799]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/pushpusgh4_Anim.pushpusgh4_Anim
+[2016.11.08-00.38.42:351][800]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/carvai/Desktop/game3/Tiki-Express/classes/Content/pushpush_anim.fbx)
+[2016.11.08-00.38.42:354][800]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.11.08-00.38.42:354][800]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.11.08-00.38.42:354][800]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.11.08-00.38.42:354][800]LogFbx: ItemName: NodeAttribute, ItemCount : 23
+[2016.11.08-00.38.42:354][800]LogFbx: ItemName: Model, ItemCount : 26
+[2016.11.08-00.38.42:354][800]LogFbx: ItemName: Geometry, ItemCount : 3
+[2016.11.08-00.38.42:354][800]LogFbx: ItemName: Material, ItemCount : 3
+[2016.11.08-00.38.42:354][800]LogFbx: ItemName: Texture, ItemCount : 2
+[2016.11.08-00.38.42:354][800]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2016.11.08-00.38.42:354][800]LogFbx: ItemName: AnimationCurve, ItemCount : 74
+[2016.11.08-00.38.42:354][800]LogFbx: ItemName: AnimationCurveNode, ItemCount : 62
+[2016.11.08-00.38.42:354][800]LogFbx: ItemName: Pose, ItemCount : 1
+[2016.11.08-00.38.42:354][800]LogFbx: ItemName: Deformer, ItemCount : 1
+[2016.11.08-00.38.42:354][800]LogFbx: ItemName: Video, ItemCount : 2
+[2016.11.08-00.38.42:358][800]LogFbx: Loading FBX Scene from C:/Users/carvai/Desktop/game3/Tiki-Express/classes/Content/pushpush_anim.fbx
+[2016.11.08-00.38.42:411][800]LogFbx: FBX Scene Loaded Succesfully
+[2016.11.08-00.38.46:994][801]LoadErrors: Info Failed to load /Game/mask.mask Referenced by mask_staticMesh
+[2016.11.08-00.38.46:995][801]LogStaticMesh: Building static mesh mask_staticMesh...
+[2016.11.08-00.38.47:024][801]LogStaticMesh: Built static mesh [0.03s] /Game/mask_staticMesh.mask_staticMesh
+[2016.11.08-00.38.47:028][801]LogEditorFactories: Performing atomic reimport of [C:/Users/carvai/Desktop/game3/Tiki-Express/classes/Content/mask_staticMesh.fbx]
+[2016.11.08-00.38.47:034][801]LogFbx: Loading FBX Scene from C:/Users/carvai/Desktop/game3/Tiki-Express/classes/Content/mask_staticMesh.fbx
+[2016.11.08-00.38.47:043][801]LogFbx: FBX Scene Loaded Succesfully
+[2016.11.08-00.38.47:258][801]LogStaticMesh: Building static mesh mask_staticMesh...
+[2016.11.08-00.38.47:287][801]LogStaticMesh: Built static mesh [0.03s] /Game/mask_staticMesh.mask_staticMesh
+[2016.11.08-00.38.47:293][801]LogEditorFactories: -- imported successfully
+[2016.11.08-00.38.47:317][802]LogMaterial:Warning: Material /Game/DefaultSkin1.DefaultSkin1 needed to have new flag set bUsedWithSkeletalMesh !
+[2016.11.08-00.38.47:319][802]LogMaterial: Missing cached shader map for material DefaultSkin1, compiling. 
+[2016.11.08-00.38.47:346][802]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.08-00.38.47:376][802]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/pushing_anim" FILE="../../../../../../Users/carvai/Desktop/game3/Tiki-Express/classes/Content/pushing_anim.uasset" SILENT=true
+[2016.11.08-00.38.47:424][802]LogSavePackage: Save=46.57ms
+[2016.11.08-00.38.47:424][802]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/game3/Tiki-Express/classes/Saved/pushing_anim311B1E5D4997AC10420D209CACEEC7A3.tmp' to '../../../../../../Users/carvai/Desktop/game3/Tiki-Express/classes/Content/pushing_anim.uasset'
+[2016.11.08-00.38.47:427][802]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/game3/Tiki-Express/classes/Content/pushing_anim.uasset
+[2016.11.08-00.38.47:449][802]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/pushpusgh4" FILE="../../../../../../Users/carvai/Desktop/game3/Tiki-Express/classes/Content/pushpusgh4.uasset" SILENT=true
+[2016.11.08-00.38.47:492][802]LogSavePackage: Save=41.48ms
+[2016.11.08-00.38.47:493][802]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/game3/Tiki-Express/classes/Saved/pushpusgh4987B317940BB9DC985E0279CC4B99F21.tmp' to '../../../../../../Users/carvai/Desktop/game3/Tiki-Express/classes/Content/pushpusgh4.uasset'
+[2016.11.08-00.38.47:495][802]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/game3/Tiki-Express/classes/Content/pushpusgh4.uasset
+[2016.11.08-00.38.47:511][802]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mask_staticMesh" FILE="../../../../../../Users/carvai/Desktop/game3/Tiki-Express/classes/Content/mask_staticMesh.uasset" SILENT=true
+[2016.11.08-00.38.47:533][802]LogSavePackage: Save=11.81ms
+[2016.11.08-00.38.47:533][802]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/game3/Tiki-Express/classes/Saved/mask_staticMeshDA00B8244A499C1092FA2BAA82F31C03.tmp' to '../../../../../../Users/carvai/Desktop/game3/Tiki-Express/classes/Content/mask_staticMesh.uasset'
+[2016.11.08-00.38.47:535][802]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/game3/Tiki-Express/classes/Content/mask_staticMesh.uasset
+[2016.11.08-00.38.50:536][ 89]AssetReimport: Info Importing new asset /Game/pushing_anim.
+[2016.11.08-00.38.50:536][ 89]AssetReimport: Info Importing new asset /Game/pushpusgh4.
+[2016.11.08-00.38.50:536][ 89]AssetReimport: Info Importing new asset /Game/pushpush_anim.
+[2016.11.08-00.38.50:536][ 89]AssetReimport: Info Failed to import file C:/Users/carvai/Desktop/game3/Tiki-Express/classes/Content/pushpush_anim.fbx.
+[2016.11.08-00.38.50:536][ 89]AssetReimport: Info Reimported asset mask_staticMesh from C:/Users/carvai/Desktop/game3/Tiki-Express/classes/Content/mask_staticMesh.fbx.
+[2016.11.08-00.39.06:271][691]LogLinker:Warning: Can't find file '/Game/skirt'
+[2016.11.08-00.39.06:271][691]LogLinker:Warning: Can't find file for asset '/Game/skirt' while loading ../../../../../../Users/carvai/Desktop/game3/Tiki-Express/classes/Content/skirt_StaticMesh.uasset.
+[2016.11.08-00.39.06:271][691]LoadErrors:Error: Error /Game/skirt_StaticMesh : Can't find file for asset. /Game/skirt
+[2016.11.08-00.39.06:271][691]LogLinker:Warning: Can't find file '/Game/skirt'
+[2016.11.08-00.39.06:271][691]LogLinker:Warning: Can't find file for asset '/Game/skirt' while loading ../../../../../../Users/carvai/Desktop/game3/Tiki-Express/classes/Content/skirt_StaticMesh.uasset.
+[2016.11.08-00.39.06:272][691]LogLinker:Warning: Can't find file '/Game/skirt'
+[2016.11.08-00.39.06:272][691]LoadErrors: Info Failed to load /Game/skirt.skirt Referenced by skirt_StaticMesh
+[2016.11.08-00.39.06:272][691]LogLinker:Warning: Can't find file for asset '/Game/skirt' while loading NULL.
+[2016.11.08-00.39.06:272][691]LogStaticMesh: Building static mesh skirt_StaticMesh...
+[2016.11.08-00.39.06:276][691]LogStaticMesh: Built static mesh [0.00s] /Game/skirt_StaticMesh.skirt_StaticMesh
+[2016.11.08-00.39.08:680][691]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'pushing_anim_Anim' or package '/Engine/Transient'.
+[2016.11.08-00.39.08:685][691]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'pushpusgh4_Anim' or package '/Engine/Transient'.
+[2016.11.08-00.40.45:858][542]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/carvai/Desktop/game3/Tiki-Express/classes/Content/Assets/Import/Tree.fbx)
+[2016.11.08-00.40.45:860][542]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.11.08-00.40.45:860][542]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.11.08-00.40.45:860][542]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.11.08-00.40.45:860][542]LogFbx: ItemName: NodeAttribute, ItemCount : 38
+[2016.11.08-00.40.45:861][542]LogFbx: ItemName: Model, ItemCount : 39
+[2016.11.08-00.40.45:861][542]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.11.08-00.40.45:861][542]LogFbx: ItemName: Material, ItemCount : 1
+[2016.11.08-00.40.45:865][542]LogFbx: Loading FBX Scene from ../../../../../../Users/carvai/Desktop/game3/Tiki-Express/classes/Content/Assets/Import/Tree.fbx
+[2016.11.08-00.40.45:878][542]LogFbx: FBX Scene Loaded Succesfully
+[2016.11.08-00.40.49:210][542]LogFbx: Loading FBX Scene from ../../../../../../Users/carvai/Desktop/game3/Tiki-Express/classes/Content/Assets/Import/Tree.fbx
+[2016.11.08-00.40.49:224][542]LogFbx: FBX Scene Loaded Succesfully
+[2016.11.08-00.40.49:227][542]LogLinker:Warning: Can't find file '/Game/Assets/lambert1'
+[2016.11.08-00.40.49:227][542]LogLinker:Warning: Can't find file '/Game/Assets/lambert1'
+[2016.11.08-00.40.50:114][542]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2016.11.08-00.40.50:137][542]LogFbx:Warning: Triangulating static mesh pCube9
+[2016.11.08-00.40.51:039][542]LogStaticMesh: Building static mesh Tree...
+[2016.11.08-00.40.51:064][542]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/Tree.Tree
+[2016.11.08-00.40.51:079][542]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.11.08-00.40.59:256][780]LogActorFactory: Actor Factory created Tree
+[2016.11.08-00.41.01:033][974]LogActorFactory: Actor Factory created Tree
+[2016.11.08-00.41.13:481][405]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cone)
+[2016.11.08-00.41.14:626][532]Cmd: DELETE
+[2016.11.08-00.41.14:626][532]Cmd: ACTOR DELETE
+[2016.11.08-00.41.14:627][532]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.08-00.41.14:638][532]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2016.11.08-00.41.15:341][614]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tree)
+[2016.11.08-00.41.25:879][353]Cmd: EDIT CUT
+[2016.11.08-00.41.25:882][353]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.08-00.41.25:891][353]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2016.11.08-00.41.28:266][626]Cmd: EDIT PASTE
+[2016.11.08-00.41.39:535][149]AssetReimport: New page: Outstanding source content changes 2:41:39 PM
+[2016.11.08-00.41.39:550][149]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Tree" FILE="../../../../../../Users/carvai/Desktop/game3/Tiki-Express/classes/Content/Assets/Tree.uasset" SILENT=true
+[2016.11.08-00.41.39:562][149]LogSavePackage: Save=10.90ms
+[2016.11.08-00.41.39:562][149]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/game3/Tiki-Express/classes/Saved/TreeE75B9A6F44AE0ACDFC9411A6D3EA6C72.tmp' to '../../../../../../Users/carvai/Desktop/game3/Tiki-Express/classes/Content/Assets/Tree.uasset'
+[2016.11.08-00.41.42:647][488]AssetReimport: Info Moving asset /Game/Assets/Tree to /Game/Assets/Tree.
+[2016.11.08-00.41.47:951][ 82]LogLinker:Warning: Can't find file '/Game/Assets/DefaultSkin1'
+[2016.11.08-00.41.47:951][ 82]LogLinker:Warning: Can't find file for asset '/Game/Assets/DefaultSkin1' while loading ../../../../../../Users/carvai/Desktop/game3/Tiki-Express/classes/Content/Assets/push_walk_anim.uasset.
+[2016.11.08-00.41.47:951][ 82]LoadErrors:Error: Error /Game/Assets/push_walk_anim : Can't find file for asset. /Game/Assets/DefaultSkin1
+[2016.11.08-00.41.47:951][ 82]LogLinker:Warning: Can't find file '/Game/Assets/DefaultSkin1'
+[2016.11.08-00.41.47:951][ 82]LogLinker:Warning: Can't find file for asset '/Game/Assets/DefaultSkin1' while loading ../../../../../../Users/carvai/Desktop/game3/Tiki-Express/classes/Content/Assets/push_walk_anim.uasset.
+[2016.11.08-00.41.47:951][ 82]LogLinker:Warning: Can't find file '/Game/Assets/push_walk_anim_PhysicsAsset'
+[2016.11.08-00.41.47:951][ 82]LogLinker:Warning: Can't find file for asset '/Game/Assets/push_walk_anim_PhysicsAsset' while loading ../../../../../../Users/carvai/Desktop/game3/Tiki-Express/classes/Content/Assets/push_walk_anim.uasset.
+[2016.11.08-00.41.47:951][ 82]LoadErrors:Error: Error /Game/Assets/push_walk_anim : Can't find file for asset. /Game/Assets/push_walk_anim_PhysicsAsset
+[2016.11.08-00.41.47:951][ 82]LogLinker:Warning: Can't find file '/Game/Assets/push_walk_anim_Skeleton'
+[2016.11.08-00.41.47:951][ 82]LogLinker:Warning: Can't find file for asset '/Game/Assets/push_walk_anim_Skeleton' while loading ../../../../../../Users/carvai/Desktop/game3/Tiki-Express/classes/Content/Assets/push_walk_anim.uasset.
+[2016.11.08-00.41.47:952][ 82]LoadErrors:Error: Error /Game/Assets/push_walk_anim : Can't find file for asset. /Game/Assets/push_walk_anim_Skeleton
+[2016.11.08-00.41.47:952][ 82]LogLinker:Warning: Can't find file '/Game/Assets/push_walk_anim_PhysicsAsset'
+[2016.11.08-00.41.47:952][ 82]LogLinker:Warning: Can't find file for asset '/Game/Assets/push_walk_anim_PhysicsAsset' while loading ../../../../../../Users/carvai/Desktop/game3/Tiki-Express/classes/Content/Assets/push_walk_anim.uasset.
+[2016.11.08-00.41.47:952][ 82]LogLinker:Warning: Can't find file '/Game/Assets/push_walk_anim_Skeleton'
+[2016.11.08-00.41.47:952][ 82]LogLinker:Warning: Can't find file for asset '/Game/Assets/push_walk_anim_Skeleton' while loading ../../../../../../Users/carvai/Desktop/game3/Tiki-Express/classes/Content/Assets/push_walk_anim.uasset.
+[2016.11.08-00.41.47:952][ 82]LogLinker:Warning: Can't find file '/Game/Assets/push_walk_anim_Skeleton'
+[2016.11.08-00.41.47:952][ 82]LoadErrors: Info Failed to load /Game/Assets/push_walk_anim_Skeleton.push_walk_anim_Skeleton Referenced by push_walk_anim
+[2016.11.08-00.41.47:952][ 82]LogLinker:Warning: Can't find file for asset '/Game/Assets/push_walk_anim_Skeleton' while loading NULL.
+[2016.11.08-00.41.47:953][ 82]LogLinker:Warning: Can't find file '/Game/Assets/push_walk_anim_PhysicsAsset'
+[2016.11.08-00.41.47:953][ 82]LoadErrors: Info Failed to load /Game/Assets/push_walk_anim_PhysicsAsset.push_walk_anim_PhysicsAsset Referenced by push_walk_anim
+[2016.11.08-00.41.47:953][ 82]LogLinker:Warning: Can't find file for asset '/Game/Assets/push_walk_anim_PhysicsAsset' while loading NULL.
+[2016.11.08-00.41.47:953][ 82]LogLinker:Warning: Can't find file '/Game/Assets/DefaultSkin1'
+[2016.11.08-00.41.47:953][ 82]LoadErrors: Info Failed to load /Game/Assets/DefaultSkin1.DefaultSkin1 Referenced by push_walk_anim
+[2016.11.08-00.41.47:953][ 82]LogLinker:Warning: Can't find file for asset '/Game/Assets/DefaultSkin1' while loading NULL.
+[2016.11.08-00.42.22:754][318]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\carvai\Desktop\game3\Tiki-Express\classes\Content\Assets\Tree.fbx)
+[2016.11.08-00.42.22:759][318]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.11.08-00.42.22:759][318]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.11.08-00.42.22:759][318]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.11.08-00.42.22:759][318]LogFbx: ItemName: NodeAttribute, ItemCount : 38
+[2016.11.08-00.42.22:759][318]LogFbx: ItemName: Model, ItemCount : 39
+[2016.11.08-00.42.22:759][318]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.11.08-00.42.22:759][318]LogFbx: ItemName: Material, ItemCount : 1
+[2016.11.08-00.42.22:769][318]LogFbx: Loading FBX Scene from C:\Users\carvai\Desktop\game3\Tiki-Express\classes\Content\Assets\Tree.fbx
+[2016.11.08-00.42.22:793][318]LogFbx: FBX Scene Loaded Succesfully
+[2016.11.08-00.42.24:245][318]LogFbx: Loading FBX Scene from C:\Users\carvai\Desktop\game3\Tiki-Express\classes\Content\Assets\Tree.fbx
+[2016.11.08-00.42.24:260][318]LogFbx: FBX Scene Loaded Succesfully
+[2016.11.08-00.42.24:264][318]LogLinker:Warning: Can't find file '/Game/Tree/lambert1'
+[2016.11.08-00.42.24:264][318]LogLinker:Warning: Can't find file '/Game/Tree/lambert1'
+[2016.11.08-00.42.24:268][318]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2016.11.08-00.42.24:281][318]LogFbx:Warning: Triangulating static mesh pCube9
+[2016.11.08-00.42.24:331][318]LogStaticMesh: Building static mesh Tree...
+[2016.11.08-00.42.24:341][318]LogStaticMesh: Built static mesh [0.01s] /Game/Tree/Tree.Tree
+[2016.11.08-00.42.24:346][318]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.11.08-00.42.27:685][691]LogActorFactory: Actor Factory created Tree
+[2016.11.08-00.42.28:588][792]LogActorFactory: Actor Factory created Tree
+[2016.11.08-00.42.44:296][573]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tree2)
+[2016.11.08-00.42.50:701][309]LogEditorViewport: Clicking on Actor (LMB): Package_C (Package4)
+[2016.11.08-00.43.10:690][598]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tree2)
+[2016.11.08-00.43.17:196][326]Cmd: TRANSACTION UNDO
+[2016.11.08-00.43.17:196][326]LogEditorTransaction: Undo Move Actors
+[2016.11.08-00.43.34:002][257]LogEditorViewport: Clicking on Actor (LMB): Package_C (Package4)
+[2016.11.08-00.43.34:126][269]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.11.08-00.43.52:500][999]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tree2)
+[2016.11.08-00.44.19:726][460]LogEditorViewport: Clicking on Actor (LMB): Package_C (Package4)
+[2016.11.08-00.44.49:281][618]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\carvai\Downloads\palm_UV.png)
+[2016.11.08-00.44.49:335][618]LogTexture:Display: Building textures: palm_UV (AutoDXT)
+[2016.11.08-00.44.59:972][777]LogMaterial: Missing cached shader map for material palm_UV_Mat, compiling. 
+[2016.11.08-00.45.04:871][329]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tree2)
+[2016.11.08-00.45.39:009][508]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\carvai\Downloads\treeUV.png)
+[2016.11.08-00.45.39:031][508]LogTexture:Display: Building textures: treeUV (AutoDXT)
+[2016.11.08-00.45.52:922][243]LogMaterial: Missing cached shader map for material treeUV_Mat, compiling. 
+[2016.11.08-00.45.53:155][268]LogMaterial: Missing cached shader map for material treeUV_Mat, compiling. 
+[2016.11.08-00.45.53:237][268]LogMaterial: Missing cached shader map for material treeUV_Mat, compiling. 
+[2016.11.08-00.45.53:248][268]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.08-00.45.53:274][268]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.11.08-00.45.54:053][302]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.11.08-00.45.54:053][302]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.11.08-00.45.54:053][302]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.11.08-00.46.04:162][112]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.11.08-00.46.31:123][834]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\carvai\Downloads\treeUV (1).png)
+[2016.11.08-00.46.31:176][834]LogTexture:Display: Building textures: treeUV__1_ (AutoDXT)
+[2016.11.08-00.46.35:264][262]LogMaterial: Missing cached shader map for material treeUV__1__Mat, compiling. 
+[2016.11.08-00.48.49:988][135]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tree2)
+[2016.11.08-00.48.51:503][307]Cmd: DELETE
+[2016.11.08-00.48.51:503][307]Cmd: ACTOR DEL
