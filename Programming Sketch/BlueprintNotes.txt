@@ -1,0 +1,140 @@
+Basic tutorials:
+  - Creating a class blueprint:
+  https://youtu.be/1G403oGwKj8
+
+  - Adding components to Class Blueprint
+  https://youtu.be/QByyq9UrBzU
+
+Level Blueprint (some things below may not belong here)
+  - Package Random Spawn & Receivers Random Spawn (Same Idea)
+  		Given known list of valid spawn points
+  		Randomly assign packages type
+  		Note: May not have any package assigned
+  - Spawn offices at N, S, E, W & assign end of day rewards
+  - List of all possible packages
+  - Profit needed to succeed
+  - Packages in level / Left to deliver
+
+=============================
+
+Package Class Blueprint
+ Vars:	
+  String type
+  	Name of the package, corresponding to the model
+  3D package //When in game world, 3D wrapped box
+  2D Image  //When in inventory, 2D image of primative technology
+  int Cost
+  	Money earned by package
+
+  int getCost(){return Cost}
+
+  image getFlatImage(){return 2D Image}
+
+==============================
+
+Player Class Blueprint
+  Vars:
+  	int inventory Size
+  		Max number of packages that can be held
+  	inventory[] = new List(Package)
+		List of packages the player currently holds
+  	int profit = 0
+  		Amount of money the player has earned this level
+  	int altitude
+  		Distance from ground at any given point
+
+  - Player Controller
+  		Flying by WASD
+  		Always falling some?
+  
+  Event: Player taps 1-5 on keyboard or clicks with inventory highlighted
+  deliverPackage(){
+  	- If Inventory[input] has an item
+  		Spawn Physics Actor [Spawn package]: https://youtu.be/8ew12FLgaMs
+  		remove package from inventory[]
+  }
+
+  Event: Player collision with package
+  pickupPackage(){
+  	Collision tutorial: http://www.youtube.com/watch?v=q_9QKzLK-sU
+  	
+  	If space in inventory
+		Add package.2DImage to inventory UI
+		add package to inventory list
+	//What happens if no space?
+  }
+
+  //Gain money for succesfully delivered packages
+  gainPayment(int payment){
+  	profit += payment
+  }
+
+  Event: PlayerAltitude = 0
+  onGround(){
+  	if at postOffice
+  		gainPayment(office.getReward())
+  }
+
+================================
+
+/*Objects that receive packages*/
+Receivers Class Blueprint
+	Vars:
+	- packWanted: String
+	  	Contains string containing Package.Type
+	- Bullseye
+		Stored as a map or list of pairs:	[(radius, bonus)]
+
+		The circles of increasing diameter around the receiver
+		Awards points based on smallest diameter landed in
+		I.e:
+			circle 1: r = 5		Cost * 20
+			circle 2: r = 10	C0st * 5
+			circle 3: r = 20	Cost * 1
+			circle 4: r = 50	Late Fees: Cost * .5
+	
+	Event: Package lands 'nearby'
+	Receive Packages(){
+		If Package.type == packWanted
+		- calculateBonus()
+		- Player.gainPayment(calculateBonus() * package.cost)
+	}
+
+	// Calculates what to multiply the package.cost by
+	int calculateBonus(){
+		- Figure out which circle the package landed in
+		- Return the bonus corresponding to the circle
+	}
+
+	void drawBullseye(){
+		- Place bullseye image(?) around spawn model
+	}
+
+====================================
+
+/*End of Level Points*/
+(post)Office Class Blueprint
+	Var: 
+	int Reward	//Reward gained for landing at post office at the end of the day
+
+	int getReward(){ return reward }
+
+====================================
+UI Blueprint
+	- Inventory
+		Space for 5 items
+		Each box is 150x150
+		Displays corresponding 2D image for packages
+	- Map
+	- General Stats
+		Altitude
+		Profit
+		Current Level
+====================================
+Unclear Aspects:
+	- Calculating bullseyes (circles around receivers corresponding to bonuses earned)
+	- Minimap with live world data
+
+Misc Features: [Some Reach Goals]
+	- Have the sun set overtime: https://www.youtube.com/watch?v=11pNZ5mge7o
+	- Looped BGM
